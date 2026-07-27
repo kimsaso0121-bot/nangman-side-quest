@@ -13,44 +13,66 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download fonts and repair text assets
+      - name: Install Gapyeong Hanseokbong Regular
         run: |
           python - <<'PY'
           from pathlib import Path
           from urllib.request import urlopen
+          import re
 
-          fonts = {
-              'assets/fonts/JeonjuSunL.woff': 'https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunL.woff',
-              'assets/fonts/JeonjuSunR.woff': 'https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunR.woff',
-              'assets/fonts/JeonjuSunB.woff': 'https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunB.woff',
-              'assets/fonts/PretendardVariable.woff2': 'https://raw.githubusercontent.com/orioncactus/pretendard/main/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2',
-          }
-          for path, url in fonts.items():
-              target = Path(path)
-              target.parent.mkdir(parents=True, exist_ok=True)
-              target.write_bytes(urlopen(url).read())
+          font_path = Path('assets/fonts/GapyeongHanseokbong-Regular.woff2')
+          font_path.parent.mkdir(parents=True, exist_ok=True)
+          font_path.write_bytes(urlopen('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongHanseokbong-Regular.woff2').read())
 
-          markers = {
-              Path('index.html'): '<!doctype html>',
-              Path('theme.css'): '@font-face',
-              Path('FONT-LICENSES.md'): '# 웹폰트 라이선스',
-          }
-          for path, marker in markers.items():
-              text = path.read_text(encoding='utf-8')
-              start = text.find(marker)
-              if start < 0:
-                  raise RuntimeError(f'Marker missing: {path}')
-              path.write_text(text[start:], encoding='utf-8')
+          theme = Path('theme.css')
+          css = theme.read_text(encoding='utf-8')
+          css = re.sub(
+              r"(?:@font-face\{font-family:'JeonjuWanpanbonSoon';[^\n]+\}\n){3}",
+              "@font-face{font-family:'GapyeongHanseokbongBigBrush';src:url('./assets/fonts/GapyeongHanseokbong-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}\n",
+              css,
+              count=1,
+          )
+          css = css.replace("--display:'JeonjuWanpanbonSoon'", "--display:'GapyeongHanseokbongBigBrush'")
+          css = css.replace(
+              ".brand,.intro h1,.intro p,.quest strong,#questDetail h2,.detail-body h3,.quest>b{font-family:var(--display)}",
+              ".brand,.intro h1,.intro p,.quest strong,#questDetail h2,.detail-body h3,.quest>b{font-family:var(--display);font-weight:400}",
+          )
+          css = css.replace("font:700 11px/1.05 var(--display)", "font:400 11px/1.05 var(--display)")
+          theme.write_text(css, encoding='utf-8')
 
           index = Path('index.html')
-          text = index.read_text(encoding='utf-8')
-          text = text.replace('href="theme.css"', 'href="theme.css?v=20260727-font1"')
-          index.write_text(text, encoding='utf-8')
+          html = index.read_text(encoding='utf-8')
+          html = html.replace('assets/fonts/JeonjuSunR.woff', 'assets/fonts/GapyeongHanseokbong-Regular.woff2')
+          html = re.sub(r'theme\.css\?v=[^"\']+', 'theme.css?v=20260728-gapyeong1', html)
+          index.write_text(html, encoding='utf-8')
+
+          licenses = Path('FONT-LICENSES.md')
+          text = licenses.read_text(encoding='utf-8')
+          start = text.find('## 전주완판본 순체')
+          end = text.find('## Pretendard')
+          gapyeong = '''## 가평한석봉체
+
+- 저작권자: 가평군
+- 가평군 공공서체로 누구나 무료로 사용할 수 있습니다.
+- 폰트 자체를 유료로 판매하지 않습니다.
+- 사용 서체: 가평한석봉 중간붓 Regular (weight 400)
+- 웹폰트 출처: https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongHanseokbong-Regular.woff2
+
+'''
+          if start >= 0 and end > start:
+              text = text[:start] + gapyeong + text[end:]
+          else:
+              text = text.rstrip() + '\n\n' + gapyeong
+          licenses.write_text(text, encoding='utf-8')
+
+          assert "GapyeongHanseokbongBigBrush" in css
+          assert "font-weight:400" in css
+          assert "20260728-gapyeong1" in html
           PY
-      - name: Commit vendored fonts
+      - name: Commit font change
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/fonts index.html theme.css FONT-LICENSES.md
-          git commit -m "Repair and self-host web fonts"
+          git add assets/fonts/GapyeongHanseokbong-Regular.woff2 index.html theme.css FONT-LICENSES.md
+          git commit -m "Use Gapyeong Hanseokbong Regular display font"
           git push
