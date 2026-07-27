@@ -7,6 +7,7 @@ body{font-family:var(--system);background:#d8cab1;background-image:radial-gradie
 .brand,.intro h1,.intro p,.quest strong,#questDetail h2,.detail-body h3,.quest>b{font-family:var(--display)}
 .brand{align-items:center}.brand-title{display:block;line-height:1;transform:translateY(1px)}.seal{width:42px;height:42px;padding:3px 0 0;border:2px solid #a93625;border-radius:3px 5px 2px 4px;background:#ead9b9;color:#a93625;font:700 11px/1.05 var(--display);letter-spacing:.04em;box-shadow:inset 0 0 0 2px #ead9b9,inset 0 0 0 3px #a93625,0 0 0 1px #6f271d55;clip-path:polygon(3% 1%,96% 3%,100% 94%,95% 100%,4% 97%,0 7%)}
 .topbar nav,.profiles>div,.profiles nav button,.progress,.controls,.list-head,.quest>span,#questDetail>header button,.detail-body,.back,dialog{font-family:var(--system)}
+.topbar nav button,.topbar nav a{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:6px 8px}.topbar .nav-icon{display:inline-grid;place-items:center;width:21px;height:21px;flex:0 0 21px}.topbar .nav-icon svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .topbar{border-bottom:1px solid #674b31;box-shadow:none}.topbar:after,main:before,main:after,.intro:after,.controls:before,.controls:after,.notebook:before,.notebook:after,.list-pane:after,#questDetail:before,#questDetail:after{display:none!important}
 main{position:relative}
 .intro{position:relative}
@@ -38,7 +39,7 @@ dialog{font-family:var(--system);border:1px solid #6c5234;box-shadow:none;backgr
 @media(max-width:540px){.progress{display:grid;grid-template-columns:1fr}.rate-group{grid-template-columns:auto 1fr 42px}.mission-count{justify-content:space-between}}
 @media(max-width:540px){
   body{min-width:320px}
-  .topbar{height:58px;padding:0 12px}.brand{gap:9px;font-size:19px}.seal{width:32px;height:36px;font-size:8px}.topbar nav{gap:0}.topbar nav a{font-size:0}.topbar nav a:after{content:"▤";font-size:19px}
+  .topbar{height:58px;padding:0 12px}.brand{gap:9px;font-size:19px}.seal{width:32px;height:36px;font-size:8px}.topbar nav{gap:2px}.topbar nav button,.topbar nav a{display:inline-grid;place-items:center;min-width:40px;padding:6px}.topbar .nav-label{display:none}.topbar .nav-icon{width:22px;height:22px}
   .intro{padding:20px 14px 16px}.intro h1{font-size:26px;line-height:1.3}.intro p{font-size:10px}.profiles{margin-top:16px}.profiles>div{margin-bottom:7px}.profiles nav button{min-height:44px;padding:8px 5px;font-size:12px}
   .progress{gap:8px;margin:0 14px 22px}.mission-count{font-size:13px}.mission-count strong,.rate-group b{font-size:15px}.rate-group{grid-template-columns:auto minmax(0,1fr) 40px;font-size:13px}.rate-group .rate-bar{height:8px}
   .controls{padding:11px 12px;gap:10px}.controls label{min-height:46px;padding:0 12px}.controls label>span{font-size:24px}.controls select,.controls input{font-size:14px}.recent button{min-height:38px}.statuses button{min-height:42px;padding:0 16px}
@@ -48,4 +49,3 @@ dialog{font-family:var(--system);border:1px solid #6c5234;box-shadow:none;backgr
   dialog{width:calc(100% - 24px);max-height:calc(100dvh - 24px)}dialog form{padding:22px}.backup-actions,.rename-actions{grid-template-columns:1fr}.backup-actions button,.backup-actions label,.rename-actions button{min-height:46px}
 }
 @media(max-width:370px){.intro h1{font-size:23px;letter-spacing:-.04em}}
-
