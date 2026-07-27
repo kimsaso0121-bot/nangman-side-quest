@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 3 seconds
+Output:
 @font-face{font-family:'JeonjuWanpanbonSoon';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunL.woff') format('woff');font-weight:300;font-display:swap}
 @font-face{font-family:'JeonjuWanpanbonSoon';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunR.woff') format('woff');font-weight:400;font-display:swap}
 @font-face{font-family:'JeonjuWanpanbonSoon';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunB.woff') format('woff');font-weight:700;font-display:swap}
@@ -28,6 +31,7 @@ main{position:relative}
 #questDetail>header button{display:inline-flex;align-items:center;justify-content:center;gap:7px;line-height:1.2}
 #questDetail>header button i{display:inline-grid;place-items:center;flex:0 0 18px;margin:0;line-height:1}
 .detail-body h3{padding:7px 0;margin-bottom:10px;color:#382d21;background:transparent;border:0;border-bottom:1px solid #a89475;font-family:var(--display);font-size:17px}
+.detail-body li,.detail-body .none{font-size:15px}
 .profiles nav{background:#e5d6ba;border:1px solid #876e4c;box-shadow:none}.profiles nav button.active{background:#4c3524;box-shadow:none}
 *{scrollbar-color:#907653 #dfcfb4;scrollbar-width:thin}::-webkit-scrollbar{width:11px;height:11px}::-webkit-scrollbar-track{background:#dfcfb4}::-webkit-scrollbar-thumb{background:#907653;border:2px solid #dfcfb4}
 dialog{font-family:var(--system);border:1px solid #6c5234;box-shadow:none;background:#eee1c8}dialog::backdrop{background:#1c120bb0}dialog form{box-shadow:none}dialog form:before,dialog form:after{display:none}
@@ -42,7 +46,8 @@ dialog{font-family:var(--system);border:1px solid #6c5234;box-shadow:none;backgr
   .controls{padding:11px 12px;gap:10px}.controls label{min-height:46px;padding:0 12px}.controls label>span{font-size:24px}.controls select,.controls input{font-size:14px}.recent button{min-height:38px}.statuses button{min-height:42px;padding:0 16px}
   .quest{min-height:76px;padding:10px 12px;grid-template-columns:28px minmax(0,1fr) 48px;gap:11px}.check{width:26px;height:26px}.quest>div{padding-top:3px}.quest strong{padding-top:2px;font-size:19px;line-height:1.35}.quest>b{width:46px;height:46px;padding-top:4px;font-size:14px}
   .detail-pane{padding:8px}.back{min-height:44px;margin:0 0 4px;padding:0 8px;font-size:14px}#questDetail{min-height:calc(100vh - 114px)}#questDetail>header{padding:22px 14px 18px}#questDetail>header p{font-size:11px}#questDetail>header h2{width:94%;min-height:48px;margin:13px auto 17px;padding:11px 24px 4px;border-left-width:10px;border-right-width:10px;font-size:25px}#questDetail>header button{min-height:40px;padding:8px 13px;font-size:13px}
-  .detail-body{padding:18px 18px 28px}.detail-body section{margin-bottom:20px}.detail-body h3{font-size:17px}.detail-body li,.detail-body .none{font-size:14px;line-height:1.65}.detail-body>a{min-height:46px;align-items:center;font-size:13px}
+  .detail-body{padding:18px 18px 28px}.detail-body section{margin-bottom:20px}.detail-body h3{font-size:17px}.detail-body li,.detail-body .none{font-size:15px;line-height:1.65}.detail-body>a{min-height:46px;align-items:center;font-size:13px}
   dialog{width:calc(100% - 24px);max-height:calc(100dvh - 24px)}dialog form{padding:22px}.backup-actions,.rename-actions{grid-template-columns:1fr}.backup-actions button,.backup-actions label,.rename-actions button{min-height:46px}
 }
 @media(max-width:370px){.intro h1{font-size:23px;letter-spacing:-.04em}}
+
