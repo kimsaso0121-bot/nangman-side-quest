@@ -1,0 +1,56 @@
+name: Vendor webfonts
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vendor-fonts.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  vendor-fonts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download fonts and repair text assets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import urlopen
+
+          fonts = {
+              'assets/fonts/JeonjuSunL.woff': 'https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunL.woff',
+              'assets/fonts/JeonjuSunR.woff': 'https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunR.woff',
+              'assets/fonts/JeonjuSunB.woff': 'https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunB.woff',
+              'assets/fonts/PretendardVariable.woff2': 'https://raw.githubusercontent.com/orioncactus/pretendard/main/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2',
+          }
+          for path, url in fonts.items():
+              target = Path(path)
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(urlopen(url).read())
+
+          markers = {
+              Path('index.html'): '<!doctype html>',
+              Path('theme.css'): '@font-face',
+              Path('FONT-LICENSES.md'): '# 웹폰트 라이선스',
+          }
+          for path, marker in markers.items():
+              text = path.read_text(encoding='utf-8')
+              start = text.find(marker)
+              if start < 0:
+                  raise RuntimeError(f'Marker missing: {path}')
+              path.write_text(text[start:], encoding='utf-8')
+
+          index = Path('index.html')
+          text = index.read_text(encoding='utf-8')
+          text = text.replace('href="theme.css"', 'href="theme.css?v=20260727-font1"')
+          index.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit vendored fonts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/fonts index.html theme.css FONT-LICENSES.md
+          git commit -m "Repair and self-host web fonts"
+          git push
