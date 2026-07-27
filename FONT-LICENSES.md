@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 3.6 seconds
-Output:
 # 웹폰트 라이선스
 
 ## 전주완판본 순체
