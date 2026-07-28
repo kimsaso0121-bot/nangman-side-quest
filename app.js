@@ -17,5 +17,26 @@ $("#renameForm").onsubmit=e=>{e.preventDefault();profile().name=$("#renameInput"
 $("#regionSelect").onchange=e=>choose(e.target.value);$("#recentRegions").onclick=e=>{const b=e.target.closest("[data-region]");if(b)choose(b.dataset.region)};$("#searchInput").oninput=e=>{state.query=e.target.value;rows()};$("#statusTabs").onclick=e=>{const b=e.target.closest("[data-status]");if(b){state.status=b.dataset.status;[...$("#statusTabs").children].forEach(x=>x.classList.toggle("active",x===b));rows()}};
 $("#questList").onclick=e=>{const c=e.target.closest("[data-check]");if(c){e.stopPropagation();toggle(c.dataset.check);return}const r=e.target.closest("[data-id]");if(r){state.selected=r.dataset.id;rows();detail();if(matchMedia("(max-width:820px)").matches)document.body.classList.add("detail-open")}};$("#questDetail").onclick=e=>{const b=e.target.closest("[data-detail-check]");if(b)toggle(b.dataset.detailCheck)};$("#mobileBack").onclick=()=>document.body.classList.remove("detail-open");
 $("#backupButton").onclick=()=>$("#backupDialog").showModal();$("#exportButton").onclick=()=>{const b=new Blob([JSON.stringify({app:"강호수첩",version:1,profiles:state.profiles},null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="강호수첩-완료기록.json";a.click();URL.revokeObjectURL(a.href)};$("#importInput").onchange=async e=>{try{const x=JSON.parse(await e.target.files[0].text());if(x.profiles?.length!==3)throw 0;state.profiles=NAMES.map((n,i)=>({id:`character-${i+1}`,name:String(x.profiles[i].name||n).slice(0,12),done:(x.profiles[i].done||[]).filter(quest)}));save();render();alert("기록을 불러왔습니다.");$("#backupDialog").close()}catch{alert("올바른 기록 파일인지 확인해 주세요.")}};$("#resetButton").onclick=()=>{if(confirm(`${profile().name}의 기록을 모두 지울까요?`)){profile().done=[];save();render();$("#backupDialog").close()}};
-fetch(`./quests-core.json?v=${Date.now()}`,{cache:"no-store"}).then(r=>r.json()).then(d=>{state.data=d;state.selected=d.quests[0].id;render()}).catch(()=>document.body.innerHTML="<main><h1>데이터를 불러오지 못했습니다.</h1></main>");
+async function loadQuestData(){
+  const version=Date.now();
+  try{
+    const manifestResponse=await fetch(`./data/manifest.json?v=${version}`,{cache:"no-store"});
+    if(!manifestResponse.ok)throw new Error(manifestResponse.status);
+    const manifest=await manifestResponse.json();
+    const chunks=await Promise.all(manifest.chunks.map(async file=>{
+      const response=await fetch(`./data/${file}?v=${version}`,{cache:"no-store"});
+      if(!response.ok)throw new Error(response.status);
+      return response.json();
+    }));
+    const quests=chunks.flat();
+    if(quests.length!==manifest.questCount)throw new Error("quest-count-mismatch");
+    return{schemaVersion:manifest.schemaVersion,quests};
+  }catch{
+    const response=await fetch(`./quests-core.json?v=${version}`,{cache:"no-store"});
+    if(!response.ok)throw new Error(response.status);
+    return response.json();
+  }
+}
+loadQuestData().then(d=>{state.data=d;state.selected=d.quests[0].id;render()}).catch(()=>document.body.innerHTML="<main><h1>데이터를 불러오지 못했습니다.</h1></main>");
 addEventListener("resize",()=>{if(state.data)rows()});
+
