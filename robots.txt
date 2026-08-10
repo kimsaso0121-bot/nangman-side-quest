@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kimsaso0121-bot.github.io/nangman-side-quest/sitemap.xml
