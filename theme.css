@@ -244,3 +244,34 @@ body,button,input,select,dialog{font-family:var(--display)}
   }
 }
 
+/* Mobile progress layout: prevent the count and percentage from overlapping. */
+@media(max-width:820px){
+  .progress{
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    width:calc(100% - 28px);
+    height:auto;
+    gap:10px;
+    margin:0 14px 22px!important;
+  }
+  .mission-count{
+    display:flex;
+    width:100%;
+    min-width:0;
+    justify-content:space-between;
+  }
+  .rate-group{
+    position:static;
+    display:grid;
+    grid-template-columns:auto minmax(0,1fr) 42px;
+    width:100%;
+    min-width:0!important;
+    max-width:none!important;
+    align-items:center;
+    gap:10px;
+  }
+  .rate-group>span{display:block}
+  .rate-group .rate-bar{width:100%;margin:0}
+  .rate-group b{position:static;text-align:right}
+}
+
