@@ -324,7 +324,7 @@ dialog h2,.guide-dialog li strong,.guide-notice strong{font-weight:400}
 .guide-close{width:100%;min-height:44px;border:1px solid #4a321f;color:#fff;background:#49301f}
 .source-dialog p{margin:22px 0;font-size:17px;text-align:center}
 .backup-actions label{border:1px solid #8d7658!important;color:#3d3025!important;background:#f4ead7!important}
-.source-actions{display:grid;grid-template-columns:1fr 1.4fr;gap:9px}.source-actions button,.source-actions a{display:flex;min-height:44px;align-items:center;justify-content:center;border:1px solid #4a321f}.source-actions a{color:#fff;background:#49301f;text-decoration:none}
+.source-actions{display:grid;grid-template-columns:1fr 1.4fr;gap:9px}.source-actions button,.source-actions a{display:flex;min-height:44px;align-items:center;justify-content:center;border:1px solid #4a321f}.source-actions a{color:#fff;background:#49301f;text-decoration:none}.source-actions button{color:#3d3025;background:#f4ead7}
 @media(max-width:540px){
   .topbar nav{gap:0}
   .guide-dialog ol{gap:11px}.guide-dialog li{padding-left:31px}.guide-dialog li strong{font-size:15px}.guide-dialog li span{font-size:13px}
