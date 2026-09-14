@@ -337,8 +337,11 @@ dialog h2,.guide-dialog li strong,.guide-notice strong{font-weight:400}
   .statuses button{min-height:42px;padding:0 16px}
 }
 
-/* Single difficulty filter, grouped by level and party combat power. */
-.controls .difficulty-control{min-width:0}
+/* Matching native selects with site-owned icons and chevrons. */
+.controls .filter-control{position:relative;min-width:0;gap:10px;padding-right:14px}
+.controls .filter-icon{width:20px;height:20px;flex:0 0 20px;fill:none;stroke:#382e24;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.controls .filter-control select{height:100%;padding:0 26px 0 0;appearance:none;-webkit-appearance:none}
+.controls .filter-control:after{content:"";position:absolute;right:16px;top:50%;width:7px;height:7px;border-right:2px solid #382e24;border-bottom:2px solid #382e24;transform:translateY(-68%) rotate(45deg);pointer-events:none}
 @media(min-width:1200px){
   .controls{grid-template-columns:190px 190px minmax(120px,1fr) minmax(220px,300px) auto}
   .controls .region-control{grid-column:1;grid-row:1}
