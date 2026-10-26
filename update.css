@@ -108,6 +108,17 @@ dialog:is(#ownedDialog,#backupDialog,#helpDialog,#sourceDialog)>form>header{just
   #resultCount{grid-row:4}
   .controls:has(#ownerLine:not([hidden])) #resultCount{grid-row:5}
 }
+/* Owned filter stays beside status controls, wrapping only when space is tight. */
+.status-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap;min-width:0}
+.controls .status-tools>#ownerLine{padding:0;background:transparent;white-space:nowrap;min-height:32px}
+@media(min-width:1200px){.controls .status-tools{grid-column:4;grid-row:1}}
+@media(min-width:821px) and (max-width:1199px){.controls .status-tools{grid-column:1 / -1;grid-row:2}}
+@media(max-width:820px){
+  .controls select,.controls input,.controls #browseButton,.controls input::placeholder{font-size:15px}
+  .controls>label.search-control{grid-row:2}
+  .controls .status-tools{grid-column:1 / -1;grid-row:3;justify-content:space-between}
+  #resultCount{grid-row:4}
+}
 /* Approved wide-PC layout: title above side-by-side profile/progress. */
 @media(min-width:1200px){
   .intro{display:block;min-height:0}
