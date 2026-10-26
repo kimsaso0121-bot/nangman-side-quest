@@ -1,0 +1,1069 @@
+[
+  {
+    "id": "draft-minor-1020",
+    "title": "설주 승급",
+    "region": "천주",
+    "regions": [
+      "천주"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "거경방",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "심음류도술 임무 완료",
+      "절경 백급 조건은 실제 발동 조건 확인 필요"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.20-q07",
+        "title": "심음류도술",
+        "region": "천주",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "심음류도술 임무 완료"
+      }
+    ],
+    "materials": [
+      "곤륜석 × 100",
+      "연금흙 × 10",
+      "은화 300냥"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "설주 승급",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 10000",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 3",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[차선]설주 승련"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-993",
+    "title": "축검의 불",
+    "region": "용천진",
+    "regions": [
+      "용천진"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "강남소항",
+    "owner": "축검산장",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "축검산장 공헌도 10000 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "삼끈 × 1",
+      "자금원석 × 3 (자금 총 150개로 교환 가능)",
+      "묵석 × 1",
+      "암철 × 10 (구매 시 은화 50냥)",
+      "칠성암 × 30"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 2, 염석 × 1, 경험치 × 3000"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "자금용로 이용 가능"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1133",
+        "title": "복희도 진급",
+        "region": "성도",
+        "relation": "progress",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "[차선]축검의 불"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1132",
+    "title": "진파 복희도법",
+    "region": "성도",
+    "regions": [
+      "성도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "서남파촉",
+    "owner": "팔괘문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "팔괘문 호감도 27000 이상",
+      "습득할 캐릭터의 도법 경지 150 이상 (삭제되는 상승 복희도법 경지 제외)"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 80냥",
+      "문방사보 × 1",
+      "운철 × 5",
+      "풍온주 × 5",
+      "설은 × 10",
+      "청금석 × 40",
+      "자금 × 220"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진파 복희도법 습득, 명성 × 2, 열력 × 5000, 은화 × 2냥"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1133",
+        "title": "복희도 진급",
+        "region": "성도",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "[차선]진파 복희도법"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1133",
+    "title": "복희도 진급",
+    "region": "성도",
+    "regions": [
+      "성도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "서남파촉",
+    "owner": "팔괘문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "진파 복희도법 획득 및 모든 층수 해제",
+      "축검산장 자금용로 개방"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-minor-1132",
+        "title": "진파 복희도법",
+        "region": "성도",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "진파 복희도법 획득 및 모든 층수 해제"
+      },
+      {
+        "id": "draft-minor-993",
+        "title": "축검의 불",
+        "region": "용천진",
+        "relation": "progress",
+        "stage": "start",
+        "sourceClause": "축검산장 자금용로 개방"
+      }
+    ],
+    "materials": [
+      "용비늘 × 2",
+      "진기 × 1000"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "복희도법 진급 및 패시브 복희 화괘 해제"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1134",
+        "title": "복희도 승련",
+        "region": "성도",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "[차선]복희도법 진급"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1134",
+    "title": "복희도 승련",
+    "region": "성도",
+    "regions": [
+      "성도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "서남파촉",
+    "owner": "팔괘문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "복희도 진급 완료"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-minor-1133",
+        "title": "복희도 진급",
+        "region": "성도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "복희도 진급 완료"
+      }
+    ],
+    "materials": [
+      "기존 복희도",
+      "은화 300냥",
+      "곤오석 100",
+      "연금니 10"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "100레벨 복희도 획득",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[차선]복희도 승련"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1430",
+    "title": "밀종대수인",
+    "region": "대설산",
+    "regions": [
+      "대설산"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "설역고산",
+    "owner": "대소사",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "대소사 호감도 36000(간담상조)",
+      "인파스승 호감도 200 필요"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 50냥 (칠법왕전 구매)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진파 권법 밀종대수인, 명성 × 4"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[차선]밀종대수인"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1289",
+    "title": "공절곡 해금·광인의 대결",
+    "region": "백산",
+    "regions": [
+      "백산"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동북변경",
+    "owner": "공절곡",
+    "recommendedLevel": "80레벨",
+    "prerequisites": [
+      "주인공 80레벨",
+      "임의 캐릭터가 만상마공과 현음장 습득 (동일 캐릭터일 필요 없음)"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "공절곡 개방"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1291",
+    "title": "공절곡의 지하 궁전·현음장 정진",
+    "region": "백산",
+    "regions": [
+      "백산"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동북변경",
+    "owner": "공절곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "공절곡 공헌 32000 이상",
+      "팀 전력 80만 권장, 현음장 정진 1대 1은 개인 24만 이상 권장"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 80냥"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 1, 열력 × 4000"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "현음장 정진 해제"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[차선]현음장 정진"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1290",
+    "title": "쇄성보 정진",
+    "region": "백산",
+    "regions": [
+      "백산"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동북변경",
+    "owner": "공절곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "쇄성보 10단계 최정상",
+      "공절곡 호감도 32000 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 80냥",
+      "진기 × 1000"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "쇄성보 정진 해제 (귀허/환허 선택)"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[차선]쇄성보 정진"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1292",
+    "title": "순수유리체",
+    "region": "백산",
+    "regions": [
+      "백산"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동북변경",
+    "owner": "공절곡",
+    "recommendedLevel": "85레벨",
+    "prerequisites": [
+      "공절곡 공헌 32000 이상",
+      "차선임무 독술 완료",
+      "주인공 85레벨 이상",
+      "주인공 이화결 활성화 및 삼음최심공 또는 한빙결 습득",
+      "내공 수위 480 이상, 후반 운공에는 최소 501 필요(단계별 조건 차이 유의)"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.3-q16",
+        "title": "독술",
+        "region": "낙양",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "차선임무 독술 완료"
+      },
+      {
+        "id": "1.9-q05",
+        "title": "삼음최심공",
+        "region": "남령",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "주인공 이화결 활성화 및 삼음최심공 또는 한빙결 습득"
+      }
+    ],
+    "materials": [
+      "청양천 × 3",
+      "흑탄저 × 3",
+      "진기 × 7233 (포획 600 + 운공 6633)"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "주인공 순수유리체 습득 (전수 가능)"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[차선]순수 유리체"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-958",
+    "title": "천원락·영롱미궁",
+    "region": "고소",
+    "regions": [
+      "고소"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "강남소항",
+    "owner": "도화오",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "도화오 공헌도 44000 이상",
+      "수상 경공 (수상표 9단계 이상)"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 150냥",
+      "삽 × 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 2, 천원락 × 1"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[차선]영롱미궁"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1031",
+    "title": "귀운도 해금",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "동해 진입 가능"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.10-q22",
+        "title": "동해 입장",
+        "region": "항주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "동해 진입 가능"
+      }
+    ],
+    "materials": [
+      "은화 × 3냥"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "귀운도 세력 개방"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1046",
+        "title": "초롱꽃 화환",
+        "region": "귀운도",
+        "relation": "progress",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1047",
+    "title": "동해의 비밀",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "동해 항해 가능",
+      "일부 보물은 썰물 또는 비 오는 날 접근"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.10-q22",
+        "title": "동해 입장",
+        "region": "항주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "동해 항해 가능"
+      }
+    ],
+    "materials": [
+      "삽(발굴 3회, 필요 소모 수량 미확인)",
+      "불붙이개(등대 점화, 소모 수량 미확인)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "죽간(1)~(5) 및 각 탐색 보물함 보상",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "귀운도·동해 비장"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1046",
+    "title": "초롱꽃 화환",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "귀운도 세력 개방"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-minor-1031",
+        "title": "귀운도 해금",
+        "region": "귀운도",
+        "relation": "progress",
+        "stage": "start",
+        "sourceClause": "귀운도 세력 개방"
+      }
+    ],
+    "materials": [
+      "초롱꽃 × 50",
+      "인삼 × 2",
+      "녹용 × 3",
+      "두충 × 20",
+      "지황 × 30",
+      "귀운도 공헌 × 500 (제조 비용)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "초롱꽃 화환(모자), 명성 × 2, 경험치 × 5000"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "귀운도·초롱꽃 화환"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1045",
+    "title": "무자서",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해경주 해적에서 현무옥패 획득 후 주인공 착용"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "삽 × 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "내공 주석 × 3 (철한의 또는 우사 의뢰 후 청추객 전달, 보상 동일)"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1043",
+        "title": "한석검법",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "귀운도·무자서"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1032",
+    "title": "귀운 의뢰·한설아",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "귀운도 공헌 1000 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "코끼리 문어 × 5",
+      "보설련 × 1",
+      "미끼 (건져내기 시도당 5개, 총소요 랜덤)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "대운도 통행령 × 1"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1033",
+        "title": "귀운 의뢰·우사",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "later"
+      },
+      {
+        "id": "draft-minor-1035",
+        "title": "도주의 명령",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-minor-1043",
+        "title": "한석검법",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-minor-1044",
+        "title": "여산 유장",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "[한녀의 의뢰]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1033",
+    "title": "귀운 의뢰·우사",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "귀운도 공헌 2000 이상",
+      "후반 진행에는 귀운 의뢰·한설아 완료 필요"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-minor-1032",
+        "title": "귀운 의뢰·한설아",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "later",
+        "sourceClause": "후반 진행에는 귀운 의뢰·한설아 완료 필요"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "은화 × 8냥, 열력 × 50000"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1035",
+        "title": "도주의 명령",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-minor-1043",
+        "title": "한석검법",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-minor-1044",
+        "title": "여산 유장",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "[우사의 의뢰]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1035",
+    "title": "도주의 명령",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "귀운도 공헌 5000 이상",
+      "귀운 의뢰-한설아 완료",
+      "귀운 의뢰-우사 완료",
+      "자시 및 낮 진행 구간 있음"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-minor-1032",
+        "title": "귀운 의뢰·한설아",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰-한설아 완료"
+      },
+      {
+        "id": "draft-minor-1033",
+        "title": "귀운 의뢰·우사",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰-우사 완료"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "후반 광반생 대화: 열력 3000·은화 5냥",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "마지막 낮 이벤트: 열력 500",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1041",
+        "title": "교룡보도",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-minor-1043",
+        "title": "한석검법",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-minor-1044",
+        "title": "여산 유장",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "[섬주의 의뢰]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1041",
+    "title": "교룡보도",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "귀운도 공헌 15000 이상",
+      "도주의 명령 완료"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-minor-1035",
+        "title": "도주의 명령",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "도주의 명령 완료"
+      }
+    ],
+    "materials": [
+      "흑철 × 3",
+      "오루 × 1",
+      "소가죽 × 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 5, 귀운도 공헌 × 1000, 열력 × 10000"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1043",
+        "title": "한석검법",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-minor-1044",
+        "title": "여산 유장",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "귀운도·교룡보도"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1043",
+    "title": "한석검법",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "귀운도 공헌 40000 이상",
+      "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 무자서 완료"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-minor-1045",
+        "title": "무자서",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 무자서 완료"
+      },
+      {
+        "id": "draft-minor-1032",
+        "title": "귀운 의뢰·한설아",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 무자서 완료"
+      },
+      {
+        "id": "draft-minor-1033",
+        "title": "귀운 의뢰·우사",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 무자서 완료"
+      },
+      {
+        "id": "draft-minor-1035",
+        "title": "도주의 명령",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 무자서 완료"
+      },
+      {
+        "id": "draft-minor-1041",
+        "title": "교룡보도",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 무자서 완료"
+      }
+    ],
+    "materials": [
+      "보설련 × 1",
+      "진주 × 5",
+      "불붙이개 × 1",
+      "삽 × 1",
+      "은화 × 400냥 (자단적삼 구매)",
+      "선택: 은화 × 5냥 (베풀기)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 5, 열력 × 5000, 한석검보 × 1"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-minor-1044",
+        "title": "여산 유장",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "귀운도·한석검법"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  }
+]

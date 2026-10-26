@@ -1,0 +1,883 @@
+[
+  {
+    "id": "draft-sect-1763",
+    "title": "검왕경 제10중",
+    "region": "오산",
+    "regions": [
+      "오산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "검왕각",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "검왕경 9중"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "호골 × 9",
+      "호편 × 9",
+      "종유 × 3",
+      "소주 × 18",
+      "공헌 총 × 3000"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "검왕경 10중 습득 자격"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "검왕경 제10중"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B2%80%EC%99%95%EA%B0%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1765",
+    "title": "전륜검의",
+    "region": "오산",
+    "regions": [
+      "오산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "검왕각",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "검왕각 유입 제자",
+      "주인공 검법 수위 500 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "진기 × 1200",
+      "공헌 × 8000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 2, 열력 × 3000, 윤지전 × 1"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "윤지전 연구로 전륜검의 습득"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "전륜검의"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B2%80%EC%99%95%EA%B0%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1766",
+    "title": "대풍검의",
+    "region": "오산",
+    "regions": [
+      "오산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "검왕각",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "검왕각 유입 제자",
+      "주인공 검법 수위 500 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "바나나 × 100",
+      "공헌 × 8000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 2, 열력 × 3000, 풍지전 × 1"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "풍지전 통찰로 대풍검의 습득"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "대풍검의"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B2%80%EC%99%95%EA%B0%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1767",
+    "title": "왕극검의",
+    "region": "오산",
+    "regions": [
+      "오산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "검왕각",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "검왕각 유입 제자",
+      "주인공 검법 수위 500 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "공헌 × 8000",
+      "진기 총 × 900"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 2, 열력 × 3000, 극지전 × 1"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "극지전 통찰로 왕극검의 습득"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "왕극검의"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B2%80%EC%99%95%EA%B0%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1810",
+    "title": "살생시",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "무면인 입문",
+      "의뢰 4회 및 체력소모 전투 25회",
+      "상승 도심종마 깨달음"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "체력 150(전투 25회)",
+      "초혼단 1 또는 제작 한옥주 2·지황 5"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "살생 시련 통과",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1811",
+        "title": "육구의 비밀",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "살생시"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1811",
+    "title": "육구의 비밀",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "살생시 통과",
+      "후반 동굴 수색에 주인공 팔힘 75"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1810",
+        "title": "살생시",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "살생시 통과"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "사경시로 이어지는 이야기 완료",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1812",
+        "title": "사경시",
+        "region": "극락곡",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "덕팔이의 비밀"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1812",
+    "title": "사경시",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "덕팔이의 비밀 후속 완료",
+      "음혈제흉 80급"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1811",
+        "title": "육구의 비밀",
+        "region": "극락곡",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "덕팔이의 비밀 후속 완료"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "극락도 승급",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진파 외공·경공 학습 및 비기 교환 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "사경시"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1814",
+    "title": "영서보감",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "영서보감 9중"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "삽 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "영서보감 10중·유사심궁 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1824",
+        "title": "탈천지조화공",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "영서보감"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1815",
+    "title": "태음절명수",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "태음절명수 9중",
+      "후반 자시 진행"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "태음절명수 10중 구결(무료)",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "태음절명수"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1816",
+    "title": "귀소음풍도-천관의 화",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "극락도 승급",
+      "진시 극락곡 15,12에서 시작"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "귀소음풍도 학습 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1824",
+        "title": "탈천지조화공",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "귀소음풍도"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1824",
+    "title": "탈천지조화공",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "영서보감",
+      "귀소음풍도 천관의 화",
+      "육비통천",
+      "주사입곡",
+      "무신전·절세 부본 개방",
+      "양피지조각 3개 수집"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1814",
+        "title": "영서보감",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "영서보감"
+      },
+      {
+        "id": "draft-sect-1816",
+        "title": "귀소음풍도-천관의 화",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "귀소음풍도 천관의 화"
+      },
+      {
+        "id": "draft-sect-1819",
+        "title": "육비통천",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "육비통천"
+      },
+      {
+        "id": "draft-sect-1823",
+        "title": "극락·주사 입곡",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "주사입곡"
+      }
+    ],
+    "materials": [
+      "삽 1",
+      "후속 경로만: 문방사보 4·불붙이개 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "탈천지조화공 수련 해금",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "선택 후속: 명성 2·열력 6000·은자 5냥",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "후속에서 구한다 선택 시 혈단 1 추가",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "탈천지조화공"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1818",
+    "title": "한화주신",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "극락도 신분"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "한옥주 11",
+      "문파공헌 합계 4950"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "한화주신 획득·수련",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "비기·한화주신"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1819",
+    "title": "육비통천",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "인내 600 초과",
+      "숨겨진 산곡 진입에는 극락곡 입문 필요",
+      "눈 오는 날 진행 구간"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "불붙이개 5",
+      "흰도토리 11"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "육비통천 비기 획득",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1824",
+        "title": "탈천지조화공",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "비기·육비통천"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1820",
+    "title": "파사만법",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "극락도 신분",
+      "등천로 평가 병(丙) 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "문파공헌 8000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "파사만법 습득",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "비기·파사만법"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1821",
+    "title": "어풍은형",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "극락곡 임암의 일일 경공 시련 수행"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "어풍은형 획득",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "극락·어풍은형"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1822",
+    "title": "극락기연·경화연",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "책 속의 향기 일일임무 1회 이상",
+      "극락곡 이동 시 낮은 확률로 발생"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "세수단 20",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "무상단 1",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "은자 2냥",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "극락기연·경화연"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1823",
+    "title": "극락·주사 입곡",
+    "region": "극락곡",
+    "regions": [
+      "극락곡"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "극락곡",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "6참 완료",
+      "벽유교 선행 퀘스트 완료"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "극락 공헌 500",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "후속 제작 후 설화적룡갑 도면 구매 해금(공헌 8000)",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1824",
+        "title": "탈천지조화공",
+        "region": "극락곡",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "극락·주사 입곡"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B7%B9%EB%9D%BD%EA%B3%A1",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-wiki-taegil-recruit",
+    "title": "태길이 가입",
+    "region": "태안진",
+    "regions": [
+      "태안진"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "사악지역",
+    "owner": "태길이",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "이벤트 원보 구매 또는 보유 옥패로 영입 스토리 시작 (현재 재판매 여부 미확인)"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "감초 × 10"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "태길이 가입, 길도 × 1, 열력 × 2000"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-notice-dohwa-past",
+    "title": "도화의 옛일",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "도화",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "도화 영입 완료"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-companion-wiki-dohwa-recruit",
+        "title": "도화 영입",
+        "region": "낙양",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "도화 영입 완료"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-support-10041",
+        "title": "도화 지원의 마음",
+        "region": "항주",
+        "relation": "related",
+        "stage": "reference"
+      }
+    ],
+    "officialNames": [],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1018",
+    "title": "거경방 해금",
+    "region": "천주",
+    "regions": [
+      "천주"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "거경방",
+    "recommendedLevel": "40레벨",
+    "prerequisites": [
+      "낙양 양위표국 표송 5회 완료",
+      "40레벨 이상에서 특별 사건 완료 후 육비에게 도움 제안"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "거경방 개방"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  }
+]

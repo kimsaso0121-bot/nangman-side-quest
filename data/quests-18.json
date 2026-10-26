@@ -1,0 +1,869 @@
+[
+  {
+    "id": "draft-minor-1044",
+    "title": "여산 유장",
+    "region": "귀운도",
+    "regions": [
+      "귀운도"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "동남연해",
+    "owner": "귀운도",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "귀운도 공헌 40000 이상",
+      "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 한석검법 완료",
+      "한석검법과 창랑결을 임의 캐릭터가 습득",
+      "벽유교 1회 통과"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-minor-1032",
+        "title": "귀운 의뢰·한설아",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 한석검법 완료"
+      },
+      {
+        "id": "draft-minor-1033",
+        "title": "귀운 의뢰·우사",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 한석검법 완료"
+      },
+      {
+        "id": "draft-minor-1035",
+        "title": "도주의 명령",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 한석검법 완료"
+      },
+      {
+        "id": "draft-minor-1041",
+        "title": "교룡보도",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 한석검법 완료"
+      },
+      {
+        "id": "draft-minor-1043",
+        "title": "한석검법",
+        "region": "귀운도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "귀운 의뢰·한설아, 귀운 의뢰·우사, 도주의 명령, 교룡보도, 한석검법 완료"
+      },
+      {
+        "id": "draft-minor-1043",
+        "title": "한석검법",
+        "region": "귀운도",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "한석검법과 창랑결을 임의 캐릭터가 습득"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "choice",
+        "choice": "일반 진행",
+        "text": "명성 × 6, 무상단 × 3, 대력환 × 2, 영허단 × 2, 벽령단 × 2"
+      },
+      {
+        "type": "choice",
+        "choice": "독주 선택 분기",
+        "text": "명성 × 5, 무상단 × 3, 대력환 × 2, 영허단 × 2, 벽령단 × 2"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "관랑 시련 해제"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "귀운도·여산 유장"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1470",
+    "title": "소녀 로잔·마르 부족 해금",
+    "region": "설원",
+    "regions": [
+      "설원"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "설역고산",
+    "owner": "마르 부족",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "주인공 90레벨",
+      "대소사 공헌 25,000 이상(단계 명칭 확인 필요)",
+      "로잔의 한기 제거에 혼원 또는 양성내공 활성화 필요"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "삼줄 × 5",
+      "불붙이개 × 5",
+      "삽 × 1",
+      "소고기 × 1",
+      "양고기 × 1",
+      "돼지고기 × 1",
+      "임의 주류 × 3",
+      "불향 또는 단향 × 1",
+      "적동 × 100",
+      "흑철 × 100",
+      "설은 × 50",
+      "백작 × 30",
+      "선택: 침묵 경로에서 동충하초 선물"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "마르 부족 개방"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "설원·소녀 로잔"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-minor-1473",
+    "title": "진운창법 획득",
+    "region": "설원",
+    "regions": [
+      "설원"
+    ],
+    "browseCategory": "소형세력",
+    "browseGroup": "설역고산",
+    "owner": "마르 부족",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "마르 부족 호감도 40000 이상, 로잔의 편지 수신"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 400냥 (암정 구매; 먼저 지원금 50냥 수령하므로 기존자금 순소요 350냥.처음 안내 500냥과 구별)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진운창보 획득"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[차선]진운창보"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%ED%98%95%20%EC%84%B8%EB%A0%A5",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-wiki-dohwa-recruit",
+    "title": "도화 영입",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "도화",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "도화 영입 의뢰 수령"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "귀문감 × 1(구매가 3,000원보)",
+      "흑철갑 1(50급 갑옷)",
+      "나무통 1(미보유 시 구매 2냥)",
+      "지혈산 5"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "도화 영입",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-companion-notice-dohwa-past",
+        "title": "도화의 옛일",
+        "region": "낙양",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "흑백무상"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10011",
+    "title": "진원봉 지원의 마음",
+    "region": "망우촌",
+    "regions": [
+      "망우촌"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "진원봉",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진원봉 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10012",
+    "title": "소유설 지원의 마음",
+    "region": "망우촌",
+    "regions": [
+      "망우촌"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "소유설",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "소유설 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10013",
+    "title": "여진해 지원의 마음",
+    "region": "망우촌",
+    "regions": [
+      "망우촌"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "여진해",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "여진해 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10014",
+    "title": "전봉 지원의 마음",
+    "region": "남양도",
+    "regions": [
+      "남양도"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "전봉",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "전봉 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10015",
+    "title": "류여의 지원의 마음",
+    "region": "남양도",
+    "regions": [
+      "남양도",
+      "낙양"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "류여의",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "류여의 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10024",
+    "title": "도연일 지원의 마음",
+    "region": "낙하진",
+    "regions": [
+      "낙하진"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "도연일",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "도연일 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10025",
+    "title": "종무월 지원의 마음",
+    "region": "유주",
+    "regions": [
+      "유주"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "동북변경",
+    "owner": "종무월",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "종무월 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10026",
+    "title": "강일천 지원의 마음",
+    "region": "구혼각",
+    "regions": [
+      "구혼각"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "",
+    "owner": "강일천",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "강일천 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10027",
+    "title": "맹상 지원의 마음",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "맹상",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "맹상 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10028",
+    "title": "배이나 지원의 마음",
+    "region": "성도",
+    "regions": [
+      "성도"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서남파촉",
+    "owner": "배이나",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "배이나 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10029",
+    "title": "월영 지원의 마음",
+    "region": "화산",
+    "regions": [
+      "화산"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "사악지역",
+    "owner": "월영",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "월영 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10030",
+    "title": "이일진 지원의 마음",
+    "region": null,
+    "regions": [
+      null
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "",
+    "owner": "이일진",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "이일진 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10031",
+    "title": "상호건 지원의 마음",
+    "region": null,
+    "regions": [
+      null
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "",
+    "owner": "상호건",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "상호건 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10032",
+    "title": "진무쌍 지원의 마음",
+    "region": null,
+    "regions": [
+      null
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "",
+    "owner": "진무쌍",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진무쌍 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10033",
+    "title": "탁발준 지원의 마음",
+    "region": "고소",
+    "regions": [
+      "고소"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "강남소항",
+    "owner": "탁발준",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "탁발준 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-support-10034",
+    "title": "능연 지원의 마음",
+    "region": "십방집",
+    "regions": [
+      "십방집"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서북대막",
+    "owner": "능연",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "해당 동료 보유",
+      "주인공 90레벨 이상",
+      "해당 동료 90레벨 이상",
+      "해당 동료 호감도 100 이상",
+      "90레벨 이상 동료 4명 이상 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "능연 동료지원 참여 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "동료지원 기능을 아직 해금하지 않았다면, 최초 진행 시 도현을 찾아 기능과 해당 동료의 지원을 함께 해금합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "지원의 마음"
+    ],
+    "sourceUrl": null,
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  }
+]

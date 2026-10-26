@@ -1,0 +1,811 @@
+[
+  {
+    "id": "draft-companion-542",
+    "title": "맹상 재능 승급-칼날의 위력",
+    "region": "십방집",
+    "regions": [
+      "십방집"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서북대막",
+    "owner": "맹상",
+    "recommendedLevel": "80레벨",
+    "prerequisites": [
+      "주인공 80레벨 이상",
+      "맹상 호감도 50 이상",
+      "비적 50세트 처치 때 맹상 전투 참여 필요"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 최소 × 5냥 (선택지·재입장에 따라 증가)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "도객 수기 × 1, 명성 × 5, 열력 × 8000, 동전 × 800"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "도객 수기를 맹상에게 사용하여 재능 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[칼날의 위력]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-526",
+    "title": "탁발준 영입-초원의 백성",
+    "region": null,
+    "regions": [
+      null
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "",
+    "owner": "탁발준",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "지도 이동 중 무작위 발동"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 200냥",
+      "뼈 40",
+      "호골 20",
+      "녹용 5",
+      "인삼 5",
+      "사담 10"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "탁발준 영입",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "초원의 백성"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-528",
+    "title": "흑담비 후계자",
+    "region": "새북",
+    "regions": [
+      "새북"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서북대막",
+    "owner": "탁발준",
+    "recommendedLevel": "80레벨",
+    "prerequisites": [
+      "탁발준 호감도 85 이상",
+      "주인공 80레벨 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 20냥"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "흑초금미 × 1, 열력 × 20000"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "탁발준 재능 흑담비 왕 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "흑담비 왕"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-547",
+    "title": "복수귀면",
+    "region": "천주",
+    "regions": [
+      "천주"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "동남연해",
+    "owner": "도연일",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "비 오는 날",
+      "도연일 60레벨 이상 (주인공 60레벨 조건 아님)",
+      "도연일 호감도 25 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "음양화 × 30",
+      "자금 × 60",
+      "월광석 × 20",
+      "얼음잠사 × 20"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "도연일 재능 승급 및 귀면 효과 해제"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "복수귀면"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-549",
+    "title": "불혹귀면",
+    "region": "낙하진",
+    "regions": [
+      "낙하진"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "도연일",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "도연일 85레벨 이상, 호감도 70 이상",
+      "용각 개방 (패자투연 1회·연왕부 2회 이상)",
+      "천도문 원한 20 이하 또는 주인공 천도문 소속"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q05",
+        "title": "패자투연",
+        "region": "유주",
+        "relation": "progress",
+        "stage": "start",
+        "sourceClause": "용각 개방 (패자투연1회·연왕부2회 이상)"
+      }
+    ],
+    "materials": [
+      "은화 × 20냥 (사고란 보유 시 10냥; 바로 지불하지 않으면 20냥)"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "도연일 불혹귀면 재능 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "불혹귀면"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-521",
+    "title": "백로 영입",
+    "region": "항주",
+    "regions": [
+      "항주"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "강남소항",
+    "owner": "백로",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "새로운 땅문서 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "새로운 땅문서 × 1(이벤트 낭만전 400으로 교환)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "백로 영입",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "강남 총상"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-511",
+    "title": "사고란 영입-사막 용사",
+    "region": "기련산",
+    "regions": [
+      "기련산"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서북대막",
+    "owner": "사고란",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "은월만도 획득 후 기련산 26,11에서 시작"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은월만도 1(낭만전 400 교환 안내)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "사고란 영입",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "사막 용사"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-516",
+    "title": "야무유 영입-흑황의 아들",
+    "region": "십방집",
+    "regions": [
+      "십방집"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서북대막",
+    "owner": "야무유",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "자시~인시 십방집 사막여우에게 감정"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "흑황우 1",
+      "은화 1냥"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "야무유 영입",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "흑황의 아들"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-571",
+    "title": "석소로 영입-양공교장",
+    "region": "태안진",
+    "regions": [
+      "태안진"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "사악지역",
+    "owner": "석소로",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "석소로 영입 증표 기관 자물쇠 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "기관 자물쇠 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "석소로 영입",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 2",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 2000",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[양공교장]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-486",
+    "title": "배이나 영입-파사고교",
+    "region": "성도",
+    "regions": [
+      "성도"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서남파촉",
+    "owner": "배이나",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "귀문감·금으로 배이나 영입 의뢰 수령"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "귀문감·금 × 1(구매가 3,000원보)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "배이나 영입",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "파사고교"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-487",
+    "title": "배이나 무기 획득-비수 사명",
+    "region": "유주",
+    "regions": [
+      "유주"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "동북변경",
+    "owner": "배이나",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "배이나 호감도 100",
+      "수상표 9단계",
+      "전력 50만 이상 안내",
+      "임무 시작부터 종료까지 배이나 팀 이탈 안내"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "웅황 3",
+      "우황 2",
+      "금은화 5",
+      "불붙이개 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "비수 성기 사명 획득",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[성물·사명Ⅰ]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-seolyong-recruit",
+    "title": "설용성 영입",
+    "region": "성도",
+    "regions": [
+      "성도"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서남파촉",
+    "owner": "설용성",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "주요임무 탑림 보호막 완료",
+      "명성 100 이상",
+      "오시 성도 객잔 앞에서 시작",
+      "후반 영입 진행에는 흑단 염주 도면 보유 필요"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "흑단 염주 도면 1(구매가 3000원보)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "설용성 영입",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 10000",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[소년의 원한]",
+      "[의협심이란 무엇일까]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-504",
+    "title": "용담흉도Ⅱ",
+    "region": "청성산",
+    "regions": [
+      "청성산"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서남파촉",
+    "owner": "설용성",
+    "recommendedLevel": "70레벨",
+    "prerequisites": [
+      "설용성 호감도 40",
+      "주인공 70레벨",
+      "잔도결 10단계",
+      "청성산 70급 필드 사냥(체력 필요)"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "설용성 재능Ⅱ 승급",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 10000",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "잔도결이 적도결·상으로 전환",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[용담흉도II]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-505",
+    "title": "용담흉도Ⅲ",
+    "region": "돈황",
+    "regions": [
+      "돈황"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서북대막",
+    "owner": "설용성",
+    "recommendedLevel": "80레벨",
+    "prerequisites": [
+      "설용성 호감도 60",
+      "주인공 80레벨",
+      "적도결 5단계"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 1냥(단서)",
+      "약초제조 경로 선택 시 호골 10·용골초 5·백삼 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "설용성 재능Ⅲ 승급",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "목숨교환 경로: 열력 5000 / 약초제조 경로: 열력 10000",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[용담흉도III]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-491",
+    "title": "남지의 영입-용정촌 풍파",
+    "region": "항주",
+    "regions": [
+      "항주"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "강남소항",
+    "owner": "남지의",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "비취옥패 보유",
+      "진시 항주 용정촌 15,29에서 시작"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "비취옥패 1(한정 이벤트 2200원보 안내)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "남지의 영입",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "용정촌 풍파"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1508",
+    "title": "소림·불법의 얽매임",
+    "region": "숭산",
+    "regions": [
+      "숭산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "소림사",
+    "recommendedLevel": "70레벨 (불법 300 수련에는 80레벨 필요)",
+    "prerequisites": [
+      "시작: 소림사 입문, 주인공 70레벨 이상, 불법 280 이상",
+      "인파스승에게 번역 부탁 후 환속해도 계속 진행 가능"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "문방사보 × 64"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 3, 열력 × 15000, 은화 × 1냥"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "소림·불법의 얽매임"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%EB%A6%BC%EC%82%AC",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1510",
+    "title": "대광명신권",
+    "region": "숭산",
+    "regions": [
+      "숭산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "소림사",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "불법 280 이상",
+      "대광명신권 3중",
+      "팔힘 80 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 20~30냥",
+      "공덕 17000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "대광명신권 수련 상한 확장",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "대광명신권"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%EB%A6%BC%EC%82%AC",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1511",
+    "title": "달마팔법신장",
+    "region": "숭산",
+    "regions": [
+      "숭산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "소림사",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "현자 배분 도달",
+      "창곤 수위 150 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "달마팔법신장 후반 수련 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "달마팔법신장"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%EB%A6%BC%EC%82%AC",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1512",
+    "title": "무상겁지",
+    "region": "숭산",
+    "regions": [
+      "숭산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "소림사",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "무상겁지 7중"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 2냥",
+      "공덕 8000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "무상겁지 후 3중 학습 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "무상겁지"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%EB%A6%BC%EC%82%AC",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1513",
+    "title": "반야선장",
+    "region": "숭산",
+    "regions": [
+      "숭산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "소림사",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "반야선장 7중"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "사담 20",
+      "금은화 50",
+      "황정 50",
+      "공덕 8000",
+      "진행 중 쏘가리 10마리 낚기"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "반야선장 하권 학습 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "반야선장"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%EB%A6%BC%EC%82%AC",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  }
+]

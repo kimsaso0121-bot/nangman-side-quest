@@ -1,0 +1,8 @@
+{
+  "app":"강호수첩","version":1,"active":0,
+  "profiles":[
+    {"id":"character-1","name":"검증 협객 가","done":["1.1-q01","unlisted-history-id"]},
+    {"id":"character-2","name":"검증 협객 나","done":["1.1-q02"]},
+    {"id":"character-3","name":"검증 협객 다","done":[]}
+  ]
+}

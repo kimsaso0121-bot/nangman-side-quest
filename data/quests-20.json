@@ -1,0 +1,371 @@
+[
+  {
+    "id": "draft-journal-quiz-03",
+    "title": "중동편 문제",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "중원지역",
+    "owner": null,
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해당 강호잡담 편의 수수께끼 열람"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q06",
+        "title": "강호잡담",
+        "region": "유주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "해당 강호잡담 편의 수수께끼 열람"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "서버 내 보상 수령 순위에 따라 은화·단약·재료 보상이 다름",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-journal-quiz-04",
+    "title": "계하편 문제",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "중원지역",
+    "owner": null,
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해당 강호잡담 편의 수수께끼 열람"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q06",
+        "title": "강호잡담",
+        "region": "유주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "해당 강호잡담 편의 수수께끼 열람"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "서버 내 보상 수령 순위에 따라 은화·단약·재료 보상이 다름",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-journal-quiz-05",
+    "title": "중하편 문제",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "중원지역",
+    "owner": null,
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해당 강호잡담 편의 수수께끼 열람"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q06",
+        "title": "강호잡담",
+        "region": "유주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "해당 강호잡담 편의 수수께끼 열람"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "서버 내 보상 수령 순위에 따라 은화·단약·재료 보상이 다름",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-journal-quiz-06",
+    "title": "황종편 문제",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "중원지역",
+    "owner": null,
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해당 강호잡담 편의 수수께끼 열람"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q06",
+        "title": "강호잡담",
+        "region": "유주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "해당 강호잡담 편의 수수께끼 열람"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "서버 내 보상 수령 순위에 따라 은화·단약·재료 보상이 다름",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-journal-quiz-08",
+    "title": "임종편 문제",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "중원지역",
+    "owner": null,
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해당 강호잡담 편의 수수께끼 열람"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q06",
+        "title": "강호잡담",
+        "region": "유주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "해당 강호잡담 편의 수수께끼 열람"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "서버 내 보상 수령 순위에 따라 은화·단약·재료 보상이 다름",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-journal-quiz-09",
+    "title": "가월본 수수께끼",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "중원지역",
+    "owner": null,
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해당 강호잡담 편의 수수께끼 열람"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q06",
+        "title": "강호잡담",
+        "region": "유주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "해당 강호잡담 편의 수수께끼 열람"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "서버 내 보상 수령 순위에 따라 은화·단약·재료 보상이 다름",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-journal-quiz-10",
+    "title": "화신편 문제",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "중원지역",
+    "owner": null,
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해당 강호잡담 편의 수수께끼 열람"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q06",
+        "title": "강호잡담",
+        "region": "유주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "해당 강호잡담 편의 수수께끼 열람"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "서버 내 보상 수령 순위에 따라 은화·단약·재료 보상이 다름",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-journal-quiz-11",
+    "title": "하청편 문제",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "중원지역",
+    "owner": null,
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해당 강호잡담 편의 수수께끼 열람"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q06",
+        "title": "강호잡담",
+        "region": "유주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "해당 강호잡담 편의 수수께끼 열람"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "서버 내 보상 수령 순위에 따라 은화·단약·재료 보상이 다름",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-journal-quiz-12",
+    "title": "상백편 문제",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "중원지역",
+    "owner": null,
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "해당 강호잡담 편의 수수께끼 열람"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.14-q06",
+        "title": "강호잡담",
+        "region": "유주",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "해당 강호잡담 편의 수수께끼 열람"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "서버 내 보상 수령 순위에 따라 은화·단약·재료 보상이 다름",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  }
+]

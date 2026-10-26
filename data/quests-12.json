@@ -1,1 +1,872 @@
-[{"id":"1.30-q02","region":"항산","title":"노임가와 재회","recommendedLevel":"등급 정보 없음","prerequisites":["차선임무 [도둑 체포], 주요임무 [항산의 위태, 존망의 위기] 임무 완료"],"materials":[],"finalRewards":[{"type":"user-verified","choice":null,"text":"[은화] × 2냥, [열력] × 4000, [명성] × 3, [계화병] × 2","sourceLineId":null}],"followupQuests":[],"followupNotes":[],"sourceUrl":"https://namu.wiki/w/낭만강호/차선임무#s-1.30","sourceSection":"1.30. 항산 > 2. 노임가와 재회","verifiedAt":"2026-07-18","review":{"status":"correct","userComment":"","importedAt":"2026-07-27T10:29:17.161Z","sourceExportedAt":"2026-07-27T10:26:35.348Z"}},{"region":"명월산","recommendedLevel":"등급 정보 없음","sourceUrl":"https://namu.wiki/w/낭만강호/차선임무#s-1.17","verifiedAt":"2026-07-24","review":null,"id":"1.17-q04","title":"숨겨진 기예 [연지]","prerequisites":["영월 제자인 여자 캐릭터는 분재 15회 선물, 그 외에는 분재 25회 선물 후 이노파에게 [연지] 탐문"],"materials":["[분재] × 15 또는 25, [은화] × 5냥"],"finalRewards":[{"type":"user-verified","choice":null,"text":"연지 제작 방법 습득, 연지대(31,21) 해제","sourceLineId":null}],"followupQuests":[],"followupNotes":["옥당형: [목련꽃] × 15, [잠사] × 5, [백련석] × 30","낙은교: [모란꽃] × 15, [잠사] × 5, [녹련석] × 20","자향연: [자정향] × 15, [풍온주] × 1, [남연석] × 10","자규홍: [진달래] × 15, [홍경천] × 1, [자연석] × 5"],"sourceSection":"1.17. 명월산 > 4. 숨겨진 기예 [연지]"},{"region":"명월산","recommendedLevel":"등급 정보 없음","sourceUrl":"https://namu.wiki/w/낭만강호/차선임무#s-1.17","verifiedAt":"2026-07-24","review":null,"id":"1.17-q05","title":"영월궁 회우각","prerequisites":["영월 원한도 0"],"materials":[],"finalRewards":[{"type":"user-verified","choice":null,"text":"영월궁 회우각 상점 이용 가능","sourceLineId":null}],"followupQuests":[],"followupNotes":["영월 수문제자에게 꽃 또는 연지를 선물해 호감도를 올리면 상품 해제","한월령을 현소각 구시현에게 전달하면 [경홍술], [호월장경], [절정검의] 비결 중 하나로 교환 가능"],"sourceSection":"1.17. 명월산 > 5. 영월궁 회우각"},{"region":"돈황","id":"1.28-q03","title":"탕마창결","recommendedLevel":"등급 정보 없음","prerequisites":["[탕마창의] 임무 완료"],"materials":[],"finalRewards":[{"type":"user-verified","choice":null,"text":"[탕마창결] × 1","sourceLineId":null}],"followupQuests":[],"followupNotes":[],"sourceUrl":"https://namu.wiki/w/낭만강호/차선임무#s-1.23","sourceSection":"돈황 > 3. 탕마창결","verifiedAt":"2026-07-27","review":null},{"region":"곤륜산","id":"1.29-q02","title":"곤륜산 보물-[설야곤륜]","recommendedLevel":"등급 정보 없음","prerequisites":["주요 임무 [대도곤륜] 임무 완료","게임 시간 자시, 눈 내리는 날"],"materials":["[백삼] × 5, [동충하초] × 5, [설련] × 3"],"finalRewards":[{"type":"user-verified","choice":null,"text":"[은화] × 15냥, [세수단] × 30, [대력환] × 10, [영허단] × 10, [선천석] × 1, [명성] × 10점","sourceLineId":null}],"followupQuests":[],"followupNotes":[],"sourceUrl":"https://namu.wiki/w/낭만강호/차선임무#s-1.29","sourceSection":"1.29. 곤륜산 > 2. 곤륜산 보물-[설야곤륜]","verifiedAt":"2026-07-27","review":null}]
+[
+  {
+    "id": "1.30-q02",
+    "title": "노임가와 재회",
+    "region": "항산",
+    "regions": [
+      "항산"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "사악지역",
+    "owner": "항산",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "차선임무 [도둑 체포], 주요임무 「항산의 위태, 존망의 위기」 완료"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "user-verified",
+        "choice": null,
+        "text": "[은화] × 2냥, [열력] × 4000, [명성] × 3, [계화병] × 2",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[노임가와의 재회]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/낭만강호/차선임무#s-1.30",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-07-18"
+  },
+  {
+    "id": "1.17-q04",
+    "title": "숨겨진 기예 [연지]",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "",
+    "owner": "명월산",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "영월 제자인 여자 캐릭터는 분재 15회 선물, 그 외에는 분재 25회 선물 후 이노파에게 [연지] 탐문"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "[분재] × 15 또는 25, [은화] × 5냥"
+    ],
+    "finalRewards": [
+      {
+        "type": "user-verified",
+        "choice": null,
+        "text": "연지 제작 방법 습득, 연지대(31,21) 해제",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "옥당형: [목련꽃] × 15, [잠사] × 5, [백련석] × 30",
+      "낙은교: [모란꽃] × 15, [잠사] × 5, [녹련석] × 20",
+      "자향연: [자정향] × 15, [풍온주] × 1, [남연석] × 10",
+      "자규홍: [진달래] × 15, [홍경천] × 1, [자연석] × 5"
+    ],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/낭만강호/차선임무#s-1.17",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-07-24"
+  },
+  {
+    "id": "1.17-q05",
+    "title": "영월궁 회우각",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "",
+    "owner": "명월산",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "영월 원한도 0"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "user-verified",
+        "choice": null,
+        "text": "영월궁 회우각 상점 이용 가능",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "영월 수문제자에게 꽃 또는 연지를 선물해 호감도를 올리면 상품 해제",
+      "한월령을 현소각 구시현에게 전달하면 [경홍술], [호월장경], [절정검의] 비결 중 하나로 교환 가능"
+    ],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/낭만강호/차선임무#s-1.17",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-07-24"
+  },
+  {
+    "id": "1.28-q03",
+    "title": "탕마창결",
+    "region": "돈황",
+    "regions": [
+      "돈황"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "서북대막",
+    "owner": "돈황",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "주요임무 천하도종·강호광인 완료",
+      "차선임무 기련산 보물·탕마창의 완료",
+      "탕마창의 200급 달성"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.13-q14",
+        "title": "탕마창의",
+        "region": "성도",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "차선임무 기련산 보물·탕마창의 완료"
+      },
+      {
+        "id": "1.26-q04",
+        "title": "기련산 보물",
+        "region": "기련산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "차선임무 기련산 보물·탕마창의 완료"
+      },
+      {
+        "id": "1.13-q14",
+        "title": "탕마창의",
+        "region": "성도",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "탕마창의200급 달성"
+      }
+    ],
+    "materials": [
+      "은화 300냥",
+      "양가죽 1",
+      "사담 10",
+      "황정 20",
+      "홍경천 5",
+      "삽 1",
+      "청운반지(90급 장비)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "탕마창결 1",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 8",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 20000",
+        "sourceLineId": null
+      },
+      {
+        "type": "choice",
+        "choice": "원문 선택지에 따라",
+        "text": "탕마창의 등급 추가 상승",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[탕마창결]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%A8%EC%84%A0%EC%9E%84%EB%AC%B4",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-07-27"
+  },
+  {
+    "id": "1.29-q02",
+    "title": "곤륜산 보물-[설야곤륜]",
+    "region": "곤륜산",
+    "regions": [
+      "곤륜산"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "설역고산",
+    "owner": "곤륜산",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "주요임무 「대도곤륜」 완료",
+      "게임 시간 자시, 눈 내리는 날"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "[백삼] × 5, [동충하초] × 5, [설련] × 3"
+    ],
+    "finalRewards": [
+      {
+        "type": "user-verified",
+        "choice": null,
+        "text": "[은화] × 15냥, [세수단] × 30, [대력환] × 10, [영허단] × 10, [선천석] × 1, [명성] × 10점",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "곤륜산·설야의 곤륜"
+    ],
+    "sourceUrl": "https://namu.wiki/w/낭만강호/차선임무#s-1.29",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-07-27"
+  },
+  {
+    "id": "draft-companion-426",
+    "title": "단도결Ⅱ",
+    "region": "쌍왕진",
+    "regions": [
+      "쌍왕진"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "여진해",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "여진해 동행, 호감도 5 이상",
+      "자시 진행"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "소주 × 8 (3병+5병)"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "여진해 재능 단도결Ⅱ 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[단도결Ⅱ]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-427",
+    "title": "단도결Ⅲ",
+    "region": "쌍왕진",
+    "regions": [
+      "쌍왕진"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "여진해",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "여진해 호감도 50 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "목련꽃 × 1",
+      "고기만두 × 3",
+      "곡주 × 5",
+      "종이돈 × 50",
+      "지혈산 × 15 또는 구전환혼단 × 1",
+      "조건부: 약왕곡 입구 다리 미수리 시 목재 × 10"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "여진해 재능 단도결Ⅲ 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[단도결Ⅲ]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-421",
+    "title": "호도전인",
+    "region": "고소",
+    "regions": [
+      "고소"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "강남소항",
+    "owner": "진원봉",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "진원봉 보유",
+      "후반 고소 발동에는 진원봉 호감도 50 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "불향 × 3",
+      "종이돈 × 3",
+      "사슴고기 × 4",
+      "장작 × 5",
+      "불붙이개 × 1",
+      "삽 × 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "진원봉 선천재능 호도전인 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[호도 후계자]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-422",
+    "title": "용도호략",
+    "region": "용천진",
+    "regions": [
+      "용천진"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "강남소항",
+    "owner": "진원봉",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "진원봉 호감도 70 이상, 용천진 농지 주변 발동"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "청경채 × 6",
+      "부추 × 7",
+      "가지 × 12",
+      "동과 × 14",
+      "토끼고기 × 4",
+      "사슴고기 × 4",
+      "고추 × 3",
+      "막걸리 × 5",
+      "쌀 × 6",
+      "자른 찐빵 × 10"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 5"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "용도를 읽어 진원봉 용도호략 재능으로 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[용도호략]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-416",
+    "title": "국검전인",
+    "region": "봉명집",
+    "regions": [
+      "봉명집"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "소유설",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "소유설 보유",
+      "익명서신을 받는 후반 단계에 소유설 호감도 20 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 5, 열력 × 2000, 소유설 호감도 × 3"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "검법도보 합성·통찰 후 소유설 재능 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[혁검전인]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-417",
+    "title": "국검각주",
+    "region": "고소",
+    "regions": [
+      "고소"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "강남소항",
+    "owner": "소유설",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "소유설 호감도 60 이상",
+      "취침 후 이벤트 발동"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "삽 × 1",
+      "강호 잡기 × 1 (혈옥을 봉명노인에게 먼저 전달 후 구매)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 3, 열력 × 1000"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "소유설 재능 각주 단계 해제"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[혁검각주]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-532",
+    "title": "홍백의혹",
+    "region": "항주",
+    "regions": [
+      "항주"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "강남소항",
+    "owner": "종무월",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "종무월 호감도 60 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "선택: 은화 1/5/10냥 (시주 선택, 생략 가능)",
+      "음식 (고기만두로는 8개)",
+      "삽 × 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "종무월 승진, 육선문 새 포졸 길쭉이 선택 가능"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "홍백의혹"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-533",
+    "title": "조정 위탁",
+    "region": "유주",
+    "regions": [
+      "유주"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "동북변경",
+    "owner": "종무월",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "종무월 호감도 80 이상",
+      "금패 신포 등급"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "체력 총 × 450",
+      "잡초 × 90",
+      "홍경천 × 5",
+      "지네 × 5",
+      "은화 총 × 80냥 (영삼과 30냥+출항 50냥)"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "종무월 승진, 새 소환수 영롱 교환 가능"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "조정 위탁"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-536",
+    "title": "삭명구혼-강일천 영입",
+    "region": "성도",
+    "regions": [
+      "성도"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "서남파촉",
+    "owner": "강일천",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "구혼각 가입",
+      "주인공 40레벨 이상",
+      "지급 자객"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 30냥(도박 시련 후 제출; 베팅 원금과 구분)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "강일천 영입",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[삭명구혼]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-537",
+    "title": "오절기명II",
+    "region": "구혼각",
+    "regions": [
+      "구혼각"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "",
+    "owner": "강일천",
+    "recommendedLevel": "60레벨",
+    "prerequisites": [
+      "주인공 60레벨 이상",
+      "강일천 호감도 20 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "구기자 × 5",
+      "복령 × 5",
+      "사담 × 5",
+      "인삼 × 3",
+      "영지 × 3",
+      "녹용 × 10",
+      "우황 × 8",
+      "호골 × 15"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "강일천 오절기명Ⅱ 재능 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[오절기명II]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-538",
+    "title": "오절기명III",
+    "region": "구혼각",
+    "regions": [
+      "구혼각"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "",
+    "owner": "강일천",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "강일천 호감도 80 이상",
+      "주인공 천급 자객",
+      "주인공 1대 1 전투력 약 16만 이상 필요"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 80냥",
+      "삽 × 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 × 5000"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "강일천 오절기명Ⅲ 재능 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[오절기명III]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-403",
+    "title": "묘수회춘Ⅱ",
+    "region": "낙양",
+    "regions": [
+      "낙양"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "류여의",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "약왕곡 약왕 치료 완료",
+      "류여의 호감도 50 이상"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.12-q01",
+        "title": "약왕곡의 견문",
+        "region": "약왕곡",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "약왕곡 약왕 치료 완료"
+      }
+    ],
+    "materials": [
+      "장미 연지 × 1",
+      "주류 × 3 (막걸리 가능)",
+      "은화 × 20냥 이상 (경매 선택에 따라 증가)"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "류여의 재능 묘수회춘Ⅱ 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-companion-405",
+        "title": "묘수회춘Ⅲ",
+        "region": "형산",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "[묘수회춘Ⅱ]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-405",
+    "title": "묘수회춘Ⅲ",
+    "region": "형산",
+    "regions": [
+      "형산"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "사악지역",
+    "owner": "류여의",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "묘수회춘Ⅱ 완료 및 후속 시나리오 촉발",
+      "류여의 호감도 80 이상, 출전",
+      "연단 150 이상"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-companion-403",
+        "title": "묘수회춘Ⅱ",
+        "region": "낙양",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "묘수회춘Ⅱ 완료 및 후속 시나리오 촉발"
+      }
+    ],
+    "materials": [
+      "해몽탕 × 1",
+      "은화 × 3냥",
+      "선택: 영지 × 30, 인삼 × 30 (공덕함에 넣지 않고 진행 가능하나 호감도 5 감소·중상)"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "백약론·하권을 류여의에게 사용하여 묘수회춘Ⅲ 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "1.12-q04",
+        "title": "장생결",
+        "region": "약왕곡",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "[묘수회춘Ⅲ]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-411",
+    "title": "심마참수",
+    "region": "숭산",
+    "regions": [
+      "숭산"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "강호문파",
+    "owner": "전봉",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "전봉 호감도 40 이상",
+      "묘시~유시 숭산 10,28에서 시작"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "흑철 × 40",
+      "설은 × 15",
+      "자금 × 2",
+      "감초 × 36",
+      "녹용 × 5",
+      "은화 × 10냥 및 칠성가물치 × 1 (미보유 시 생선장수에게 기본 5냥 구매; 거절·재방문 시 가격 증가)"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "전봉 재능 심마참수 승급"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[심마참수]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": true,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-companion-541",
+    "title": "맹상 영입-팔 부러진 칼잡이",
+    "region": "쌍왕진",
+    "regions": [
+      "쌍왕진"
+    ],
+    "browseCategory": "동료임무",
+    "browseGroup": "중원지역",
+    "owner": "맹상",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "팔 부러진 칼잡이 영입 의뢰 진행"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 총 × 100냥",
+      "적동 × 200",
+      "백련석 × 100",
+      "청금석 × 10"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "맹상 영입"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "[팔 부러진 칼잡이]"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EB%8F%99%EB%A3%8C",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  }
+]

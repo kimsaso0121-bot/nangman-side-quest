@@ -1,0 +1,119 @@
+/* Approved update only. styles.css/theme.css (including the divider) stay byte-identical. */
+@font-face{font-family:BusanDandi;src:url('assets/fonts/BusanDandiMyeongjo-L.woff2') format('woff2');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:BusanDandi;src:url('assets/fonts/BusanDandiMyeongjo-M.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:BusanDandi;src:url('assets/fonts/BusanDandiMyeongjo-B.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+:root{--display:BusanDandi,serif;--system:BusanDandi,serif}
+body,button,input,select,dialog{font-weight:500;font-synthesis:none}
+.intro h1{font-weight:700}
+.topbar nav>button,.topbar nav>a{display:flex;flex-direction:column;justify-content:center;gap:2px}
+.topbar nav .nav-label{display:block!important;font-family:var(--display);font-size:11px;font-weight:500;line-height:1.15}
+.topbar .nav-icon svg{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;width:21px;height:21px}
+.mission-count{justify-content:space-between;width:100%;gap:8px}
+.mission-count .completion-group{display:inline-flex;align-items:baseline;gap:7px;white-space:nowrap}
+.mission-count .doing-group{margin-right:6px;white-space:nowrap}
+.mission-count>span,.mission-count strong,.mission-count em,.rate-group>span,.rate-group b{font-size:15px;font-style:normal}
+.mission-count>span,.completion-group>span,.rate-group>span{font-weight:700}
+.mission-count strong,.mission-count em,.rate-group b{font-weight:500}
+.controls select,.controls input,.controls #browseButton{font:500 16px var(--display)}
+.controls input::placeholder{font:500 16px var(--display)}
+.controls .search-control{padding-left:14px;gap:10px}
+.controls .search-control>span{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;flex:0 0 20px;font:500 23px/1 var(--system);color:#382e24}
+.controls .search-control>span svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.statuses button{font:500 15px var(--display)}
+.browse-picker{position:relative;min-width:0}
+.controls .recent:before{content:none}
+.controls #ownerLine{border:0;background:transparent;padding:0;min-height:0}
+#browseButton{width:100%;height:100%;min-height:46px;text-align:left;color:#382e24;background:transparent;display:flex;align-items:center;border:1px solid #9c805d;border-radius:4px;padding-left:14px}
+#browseLabel{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-right:20px}
+#browseItems{position:absolute;z-index:25;top:calc(100% + 4px);left:0;width:max(100%,230px);max-height:min(440px,55vh);overflow:auto;background:#f4ead7;border:1px solid #9c805d;box-shadow:0 5px 12px #382e2425;border-radius:4px}
+#browseItems[hidden],#ownerLine[hidden]{display:none}
+#browseItems button{display:flex;justify-content:space-between;gap:15px;width:100%;min-height:42px;padding:10px 14px;text-align:left;border:0;border-bottom:1px solid #b8aa9150;background:transparent;color:#382e24;font:500 15px var(--display)}
+#browseItems button:hover,#browseItems button:focus-visible{background:#dfcfb0}
+#browseItems .browse-child{padding-left:28px}
+#ownerLine{display:flex;align-items:center;gap:7px;font:500 13px var(--display)}
+#ownerLine input{width:17px;height:17px;accent-color:#59412a}
+#resultCount{position:absolute;right:0;bottom:12px;white-space:nowrap;font:500 12px var(--display);color:#745c41}
+.quest{min-height:68px;padding-top:8px;padding-bottom:8px}
+.quest strong{font:500 18px var(--display)}
+.quest.doing .check,#questDetail>header button.doing i{background:#d9c69d;color:#735722}
+.quest.doing>b{color:#8b691f;border-color:#ad914c;font-size:13px;letter-spacing:-.04em}
+#questDetail>header h2{font-weight:500}
+/* User-approved final review: shorten only the title divider, not its layout. */
+#questDetail>header h2{border-bottom-color:transparent;position:relative}
+#questDetail>header h2:after{content:"";display:block;position:absolute;bottom:-1px;left:12.5%;width:75%;height:1px;background:#a68e6c;pointer-events:none}
+.detail-body h3{font-size:18px;font-weight:700}
+.detail-body li,.detail-body .none{font-size:15px;font-weight:500}
+.detail-body>a{position:relative;justify-content:center;text-align:center}
+.detail-body>a>span{position:absolute;right:15px;top:50%;transform:translateY(-50%)}
+#ownedDialog form{width:min(560px,100%)}
+#ownedDialog header{display:flex;justify-content:space-between;align-items:center}
+#ownedDialog header button{font-size:26px;border:0;background:none}
+#companionList fieldset{margin:14px 0;border:1px solid #b8a17d;padding:10px}
+#companionList fieldset:first-child{margin-top:0}
+#companionList fieldset>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+#companionList label{display:flex;align-items:center;gap:5px;min-height:32px;font-size:14px}
+#companionList input{accent-color:#59412a;width:17px;height:17px}
+.font-credit{font-size:12px;color:#665947}
+/* Dialog-only review corrections: fixed heading/actions, scrollable companion list. */
+dialog:is(#ownedDialog,#backupDialog,#helpDialog,#sourceDialog)>form>header{justify-content:center;text-align:center;padding-left:30px;padding-right:30px}
+#ownedDialog{width:min(560px,calc(100% - 24px));max-height:calc(100dvh - 40px);overflow:hidden}
+#ownedDialog>form{display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;max-height:calc(100dvh - 42px);min-height:0;width:100%}
+#ownedDialog>form>header{flex-shrink:0}
+#ownedDialog>form>p{word-break:keep-all;margin-bottom:25px}
+#companionList{min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding-right:4px}
+#ownedDialog .guide-close{margin-top:14px;min-height:44px}
+@media(max-width:540px){#companionList fieldset>div{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:821px){
+  .intro>div:first-child{flex:1;min-width:0;text-align:left}
+  .intro h1{white-space:normal}
+  .profiles .progress{width:calc(100% - 44px);margin:12px 0 0!important}
+  .controls .recent{flex-direction:column;justify-content:center;gap:4px}
+  #resultCount{position:static;align-self:flex-end}
+  .rate-group b{top:28px;right:-42px}
+  .quest,.list-head{grid-template-columns:32px 1.25fr 115px 1.2fr 54px}
+}
+@media(min-width:1200px){.controls>label.difficulty-control{grid-column:2;grid-row:1}.controls>label.search-control{grid-column:4;grid-row:1}}
+@media(min-width:821px) and (max-width:1199px){.controls>label.difficulty-control{grid-column:2;grid-row:1}.controls>label.search-control{grid-column:3;grid-row:1}}
+@media(max-width:820px){
+  .controls>label.difficulty-control{grid-column:2;grid-row:1}.controls>label.search-control{grid-column:1 / -1;grid-row:3}
+  .quest{min-height:68px}
+  .quest strong{font-size:18px}
+  .statuses button{padding-left:12px;padding-right:12px}
+}
+@media(max-width:390px){.topbar nav>button,.topbar nav>a{min-width:34px;padding-left:5px;padding-right:5px}}
+/* Review: remove empty option tracks; align the result with the controls' right edge. */
+.controls .recent:has(#ownerLine[hidden]){display:none}
+#resultCount{position:static;grid-column:1 / -1;justify-self:end;align-self:center;margin-right:6px;text-align:right}
+#resultCount[hidden]{display:none}
+@media(min-width:1200px){
+  .controls{grid-template-columns:190px 190px minmax(220px,1fr) auto}
+  .controls>label.search-control{grid-column:3;grid-row:1}
+  .controls .statuses{grid-column:4;grid-row:1}
+  .controls .recent{grid-column:1 / 4;grid-row:2;align-items:flex-start}
+  #resultCount{grid-row:2;grid-column:4}
+}
+@media(min-width:821px) and (max-width:1199px){
+  .controls .statuses{grid-column:1 / -1;grid-row:2;justify-self:start}
+  .controls .recent{grid-column:1 / -1;grid-row:3;align-items:flex-start}
+  #resultCount{grid-row:2}
+}
+@media(max-width:820px){
+  .controls>label.search-control{grid-row:2}
+  .controls .statuses{grid-row:3}
+  #resultCount{grid-row:3}
+  .controls:has(#ownerLine:not([hidden]))>label.search-control{grid-row:3}
+  .controls:has(#ownerLine:not([hidden])) .statuses,.controls:has(#ownerLine:not([hidden])) #resultCount{grid-row:4}
+}
+@media(max-width:430px){
+  #resultCount{grid-row:4}
+  .controls:has(#ownerLine:not([hidden])) #resultCount{grid-row:5}
+}
+/* Approved wide-PC layout: title above side-by-side profile/progress. */
+@media(min-width:1200px){
+  .intro{display:block;min-height:0}
+  .intro>div:first-child{margin-bottom:18px}
+  .intro .profiles{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:clamp(32px,5vw,80px);row-gap:8px;width:100%;min-width:0}
+  .intro .profiles>div:first-child{grid-column:1;grid-row:1;margin:0}
+  .intro .profiles>nav{grid-column:1;grid-row:2}
+  .intro .profiles>.progress{grid-column:2;grid-row:1 / span 2;align-self:start;width:calc(100% - 44px);margin:0!important}
+}

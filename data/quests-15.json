@@ -1,0 +1,984 @@
+[
+  {
+    "id": "draft-sect-1663",
+    "title": "자양만도권",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "청허의 진파 권법 시련 시작",
+      "후반: 자양만도권 6중"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "호피 30"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "자양만도권 후속 학습 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "자양만도권"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1664",
+    "title": "성운검결",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "핵심 제자(옥패 수령 단계)",
+      "후반 학습: 검법 수위 100 이상·성운검법 10중"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "탕후루 1",
+      "짐승덫 1",
+      "은화 200냥",
+      "공헌 26000(성운검법 미습득 시 전권교환 5200 추가; 진행 중 2000 획득)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "성운검결 학습 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "성운검결"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1665",
+    "title": "천강검지결",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "신소 임무 완료 및 신소 교환",
+      "청허에게 출사",
+      "주선 천강검지·풍운제회",
+      "내공 경지 500",
+      "비 오는 날 태을산 8,10"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1668",
+        "title": "신소",
+        "region": "태을산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "신소 임무 완료 및 신소 교환"
+      }
+    ],
+    "materials": [
+      "뇌공등 1·인삼 8·백작 8(보화진단 1개 분량)",
+      "불붙이개 4",
+      "단전진기 최소 2500(정답 기준; 나눠 진행 가능)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "천강검지결 제 1단계 습득·후속수련 해금",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 3",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 6000",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1669",
+        "title": "하늘에서 벼락이 떨어지다-인뇌입소",
+        "region": "태을산",
+        "relation": "reference",
+        "stage": "start"
+      },
+      {
+        "id": "draft-sect-1670",
+        "title": "신소 승련",
+        "region": "태을산",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "천강검지결"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1667",
+    "title": "백용갑",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "귀식대법 1단계",
+      "회용대 진입 가능한 경공 경로"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "백용갑 1",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "항요전 1",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "비영단 3",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "은자 1냥",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "백용갑 "
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1668",
+    "title": "신소",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "90레벨",
+    "prerequisites": [
+      "핵심제자",
+      "주인공 90레벨",
+      "주인공 권각 경지 250"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "지네 5",
+      "독사샘 5",
+      "전갈꼬리 × 5(구매비 200냥)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "공헌 1000",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "신소 교환 해금(후속 구매 공헌 12000)",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1665",
+        "title": "천강검지결",
+        "region": "태을산",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-sect-1669",
+        "title": "하늘에서 벼락이 떨어지다-인뇌입소",
+        "region": "태을산",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "신소"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1669",
+    "title": "하늘에서 벼락이 떨어지다-인뇌입소",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "신소 임무",
+      "천강검지결 10중"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1668",
+        "title": "신소",
+        "region": "태을산",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "신소 임무"
+      },
+      {
+        "id": "draft-sect-1665",
+        "title": "천강검지결",
+        "region": "태을산",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "천강검지결10중"
+      }
+    ],
+    "materials": [
+      "자금 200",
+      "운철 1",
+      "천년한철 1",
+      "진기 1000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "신소 재주조",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 2",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 3000",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1670",
+        "title": "신소 승련",
+        "region": "태을산",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "하늘에서 벼락이 떨어지다"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1670",
+    "title": "신소 승련",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "천강검지결 임무 완료",
+      "천강검지결 10중 달성",
+      "인뇌입소 임무 완료",
+      "장백산 유수의 정련 기능 활성화"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1665",
+        "title": "천강검지결",
+        "region": "태을산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "천강검지결 임무 완료"
+      },
+      {
+        "id": "draft-sect-1665",
+        "title": "천강검지결",
+        "region": "태을산",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "천강검지결10중 달성"
+      },
+      {
+        "id": "draft-sect-1669",
+        "title": "하늘에서 벼락이 떨어지다-인뇌입소",
+        "region": "태을산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "인뇌입소 임무 완료"
+      }
+    ],
+    "materials": [
+      "곤오석 100",
+      "연금니 10",
+      "기존 90레벨 신소"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "100레벨 신병·신소",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "천강검지결 10중 조건은 위키에 실제 측정이 필요하다고 기재되어 있습니다.",
+      "신소 승련 후에는 판매·분해·버리기가 불가능합니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "신소 승련"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1671",
+    "title": "건곤 승련",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "장백산 유수의 정련 기능 활성화",
+      "원문 본문 기준: 태을교 소속 및 건곤검 도면 교환"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "곤오석 100",
+      "연금니 10",
+      "기존 90레벨 건곤"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "100레벨 신병·건곤",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "각주의 실측 사례는 태을교 전입 후 2단계 스승을 거치는 시점에도 임무가 시작되었다고 기록하여, 본문의 도면 조건과 차이가 있습니다.",
+      "환속 후 계속 진행한 사례도 있으나, 원문은 용천진 대화까지 진행한 차이일 가능성으로 설명합니다. 태을교에서 임무 수락만 하면 항상 가능하다고 단정하지 않습니다."
+    ],
+    "followupQuests": [],
+    "officialNames": [
+      "건곤 승련"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1674",
+    "title": "사상진",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "2대 제자",
+      "진법 마지막 페이지 확인 후 도현 문답"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "공헌 12000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "사상진 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "사상진"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1711",
+    "title": "축호공-상승 내공 습득",
+    "region": "돈황",
+    "regions": [
+      "돈황"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "창랑문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "창랑 3계 사부 모심",
+      "강근철골 300급"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "오목내갑",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "축호공 학습 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "창랑·축호공"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%BD%EB%9E%91%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1712",
+    "title": "창랑·등룡 창술",
+    "region": "창랑문",
+    "regions": [
+      "창랑문"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "창랑문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "운룡 창술 하권 획득",
+      "순우선에게 출사",
+      "후반 족자 학습: 창 경지 160"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "용문 족자·정",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "후속 교환 해금(6단계 후 공헌 9090)",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "창랑·등룡 창술"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%BD%EB%9E%91%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1714",
+    "title": "창랑·진파 선행",
+    "region": "돈황",
+    "regions": [
+      "돈황"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "창랑문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "오목내갑 획득",
+      "후반에는 3계 사부에게 출사"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "삽 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "창아창 획득",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진파 무학 학습 자격 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "창랑·진파 선행"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%BD%EB%9E%91%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1715",
+    "title": "창랑·진파 후속",
+    "region": "돈황",
+    "regions": [
+      "돈황"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "창랑문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "임의 진파 무공 6단계 승급",
+      "자시·모래바람 없는 날 밀실 진입"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "각 무공마다 다름"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진행한 진파 계열의 후반 수련 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "창랑·진파 후속"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%BD%EB%9E%91%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1716",
+    "title": "창랑·구룡반천창",
+    "region": "창랑문",
+    "regions": [
+      "창랑문"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "창랑문",
+    "recommendedLevel": "90레벨 전투 구간",
+    "prerequisites": [
+      "등룡 창법 하권 획득",
+      "호랑쌍세공 임무 해제",
+      "연북귀 만나기",
+      "후반 학습: 창곤 수위 330"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "삽 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "반룡 족자",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "구룡반천창 학습 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1719",
+        "title": "창랑·신목보갑",
+        "region": "창랑문",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "창랑·구룡반천창"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%BD%EB%9E%91%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1719",
+    "title": "창랑·신목보갑",
+    "region": "창랑문",
+    "regions": [
+      "창랑문"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "창랑문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "구룡반천창 상권 3단계 습득",
+      "연왕부 해제"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1716",
+        "title": "창랑·구룡반천창",
+        "region": "창랑문",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "구룡반천창 상권3단계 습득"
+      }
+    ],
+    "materials": [
+      "공헌 13000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "신목보갑 1",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1720",
+        "title": "창랑·천랑북가",
+        "region": "창랑문",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "창랑·신목보갑"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%BD%EB%9E%91%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1720",
+    "title": "창랑·천랑북가",
+    "region": "창랑문",
+    "regions": [
+      "창랑문"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "창랑문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "백산 임업장 건설 완료",
+      "창랑 4계 사부",
+      "창랑봉아창 8단계",
+      "신목보갑 완료"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.27-q03",
+        "title": "임업장 건설",
+        "region": "백산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "백산 임업장 건설 완료"
+      },
+      {
+        "id": "draft-sect-1719",
+        "title": "창랑·신목보갑",
+        "region": "창랑문",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "신목보갑 완료"
+      }
+    ],
+    "materials": [
+      "공헌 12000(낭창 도면)",
+      "자금 70",
+      "칠성암 30",
+      "흑옥정 30"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "천랑북가 제작 해금",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "한목심 1",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "창랑·천랑북가"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B0%BD%EB%9E%91%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1759",
+    "title": "검을 찾아 귀각",
+    "region": "오산",
+    "regions": [
+      "오산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "검왕각",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "검왕각 유입 제자",
+      "서천검법·검우공·검투보 모두 10중",
+      "상승 스승 출사 후 20분 대기"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 50냥"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "검왕각 진파무학 습득 자격 (실제 학습에는 검법 수위 500 이상 필요)"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "검을 찾아 귀각"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B2%80%EC%99%95%EA%B0%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1760",
+    "title": "대량검전 10중",
+    "region": "오산",
+    "regions": [
+      "오산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "검왕각",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "대량검전 9중",
+      "주인공 팔힘 106 이상 (206 이상 권장)"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "목탄 × 1",
+      "은화 × 10냥",
+      "공헌 총 × 3000"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "대량검전 10중 습득 자격"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "대량검전 10중"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B2%80%EC%99%95%EA%B0%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1761",
+    "title": "기린검경 제10중",
+    "region": "오산",
+    "regions": [
+      "오산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "검왕각",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "기린검경 9중",
+      "주인공 팔힘 100 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "아침 이슬 × 6",
+      "종유 × 3",
+      "소주 × 27"
+    ],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "기린검경 10중 습득 가능"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "기린검경 제10중"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B2%80%EC%99%95%EA%B0%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1762",
+    "title": "염마검가 10중",
+    "region": "오산",
+    "regions": [
+      "오산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "검왕각",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "염마검가 9중"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "은화 × 1냥"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 × 2, 경험 × 3000"
+      },
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "염마검가 10중 습득 가능"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "염마검가 10중"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EA%B2%80%EC%99%95%EA%B0%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  }
+]

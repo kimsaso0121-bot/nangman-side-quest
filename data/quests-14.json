@@ -1,0 +1,1087 @@
+[
+  {
+    "id": "draft-sect-1514",
+    "title": "역근경",
+    "region": "숭산",
+    "regions": [
+      "숭산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "소림사",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "3계 출사·현자 배분",
+      "내공 수위 150 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "역근경 10중까지 수련 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "역근경"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%EB%A6%BC%EC%82%AC",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1515",
+    "title": "구도육좌상",
+    "region": "숭산",
+    "regions": [
+      "숭산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "소림사",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "3계 출사·현자 배분",
+      "불법 240 이상",
+      "경공 수위 150 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "공덕 총 22000(전 6중 12000·후 4중 10000)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "구도육좌상 10중 수련 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "1.4-q07",
+        "title": "서왕모의 눈물",
+        "region": "낙하진",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "구도육좌상"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%86%8C%EB%A6%BC%EC%82%AC",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1559",
+    "title": "천도삼식-진파 학습",
+    "region": "낙하진",
+    "regions": [
+      "낙하진"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "천도문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "신인귀일결 극의 습득",
+      "천강인결 진식·탄초 또는 현천인결 진식·백습 습득"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "동전 500푼",
+      "음양화 20",
+      "호혈 10",
+      "녹혈 10"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명경지수 습득",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진파 무학 학습 자격 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1563",
+        "title": "소풍도의",
+        "region": "낙하진",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-sect-1564",
+        "title": "광사도의",
+        "region": "낙하진",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-sect-1567",
+        "title": "보도 무명",
+        "region": "낙하진",
+        "relation": "reference",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "진파 ·천도삼식"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B2%9C%EB%8F%84%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1562",
+    "title": "활맥법",
+    "region": "낙하진",
+    "regions": [
+      "낙하진"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "천도문",
+    "recommendedLevel": "40레벨",
+    "prerequisites": [
+      "주인공 40레벨 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "활맥법전책, 열력 × 2000"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "활맥법"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B2%9C%EB%8F%84%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1563",
+    "title": "소풍도의",
+    "region": "낙하진",
+    "regions": [
+      "낙하진"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "천도문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "천도문 진파 학습 임무 완료"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1559",
+        "title": "천도삼식-진파 학습",
+        "region": "낙하진",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "천도문 진파 학습 임무 완료"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "소풍도의 비결 습득"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1565",
+        "title": "신비여인-적요의·고오의·경외의",
+        "region": "낙하진",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "소풍도의"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B2%9C%EB%8F%84%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1564",
+    "title": "광사도의",
+    "region": "낙하진",
+    "regions": [
+      "낙하진"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "천도문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "천도문 진파 학습 임무 완료"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1559",
+        "title": "천도삼식-진파 학습",
+        "region": "낙하진",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "천도문 진파 학습 임무 완료"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "unlock",
+        "choice": null,
+        "text": "월하호소도를 열람하여 광사도의 비결 습득"
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1565",
+        "title": "신비여인-적요의·고오의·경외의",
+        "region": "낙하진",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "광사도의"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B2%9C%EB%8F%84%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1565",
+    "title": "신비여인-적요의·고오의·경외의",
+    "region": "낙하진",
+    "regions": [
+      "낙하진"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "천도문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "진파 학습·광사도의·소풍도의 완료",
+      "명경지수 200급",
+      "광사도의·소풍도의 100급 이상"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1563",
+        "title": "소풍도의",
+        "region": "낙하진",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "진파 학습·광사도의·소풍도의 완료"
+      },
+      {
+        "id": "draft-sect-1564",
+        "title": "광사도의",
+        "region": "낙하진",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "진파 학습·광사도의·소풍도의 완료"
+      },
+      {
+        "id": "draft-sect-1563",
+        "title": "소풍도의",
+        "region": "낙하진",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "광사도의·소풍도의100급 이상"
+      },
+      {
+        "id": "draft-sect-1564",
+        "title": "광사도의",
+        "region": "낙하진",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "광사도의·소풍도의100급 이상"
+      }
+    ],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "선택한 의념 비결 1종 습득(경외의/적요의/고오의)",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "신비여인 "
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B2%9C%EB%8F%84%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1567",
+    "title": "보도 무명",
+    "region": "낙하진",
+    "regions": [
+      "낙하진"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "천도문",
+    "recommendedLevel": "83레벨",
+    "prerequisites": [
+      "주인공 83레벨 이상",
+      "진파 무공 학습 완료",
+      "천도삼식 10중",
+      "천주인결 10중",
+      "경구의·적요의·고오의 중 하나 300급"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1559",
+        "title": "천도삼식-진파 학습",
+        "region": "낙하진",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "천도삼식10중"
+      }
+    ],
+    "materials": [
+      "설은 80",
+      "자금 170",
+      "운문현정 25",
+      "청금석 50",
+      "자연석 60"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "보도 무명 제작",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1569",
+        "title": "천도·무쌍진",
+        "region": "낙하진",
+        "relation": "progress",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "보도 무명"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B2%9C%EB%8F%84%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1569",
+    "title": "천도·무쌍진",
+    "region": "낙하진",
+    "regions": [
+      "낙하진"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "천도문",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "무명 임무 촉발",
+      "도법 경지 300 이상"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1567",
+        "title": "보도 무명",
+        "region": "낙하진",
+        "relation": "progress",
+        "stage": "start",
+        "sourceClause": "무명 임무 촉발"
+      }
+    ],
+    "materials": [
+      "공헌 10000(독서시간 1시간; 시간초과 후 재이용 시 추가 10000)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "무쌍진 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "천도·무쌍진"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%B2%9C%EB%8F%84%EB%AC%B8",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1611",
+    "title": "영월의 옛일",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "영월청심공 습득",
+      "주요임무 협력 완료"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "비결 잔본 1",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "영월청심공 제 5초식 해금",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 5",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "동전 300푼",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1616",
+        "title": "의천미종-진파 선행",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "영월의 옛일"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1612",
+    "title": "거석진 도전",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [],
+    "prerequisiteQuests": [],
+    "materials": [
+      "문파공헌 3500(1000+500+2000)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "비결 잔본 1",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "상승 무공 제 5초식 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1616",
+        "title": "의천미종-진파 선행",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "거석진 도전"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1613",
+    "title": "월심한백결-한백빙심",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "주인공 55레벨 이상",
+      "빙심결 270급 이상",
+      "무언곡 진입 가능한 경공"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.17-q03",
+        "title": "빙심결",
+        "region": "명월산",
+        "relation": "reference",
+        "stage": "start",
+        "sourceClause": "빙심결270급 이상"
+      }
+    ],
+    "materials": [
+      "문파공헌 800",
+      "화양단 5"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "월심한백결 완본·제 4초식 해금",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "한월령 1",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 6000",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1621",
+        "title": "청휘한영경",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "월심한백결"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1616",
+    "title": "의천미종-진파 선행",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "영월의 옛일·거석진 후속 완료",
+      "량연 또는 조남정에게 출사"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1611",
+        "title": "영월의 옛일",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "영월의 옛일·거석진 후속 완료"
+      },
+      {
+        "id": "draft-sect-1612",
+        "title": "거석진 도전",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "영월의 옛일·거석진 후속 완료"
+      }
+    ],
+    "materials": [
+      "출항 은화 1냥",
+      "선택: 재료 경로는 은화 10냥·적동 200·흑철 100·흑옥정 5",
+      "귀환 동전 500푼"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "명성 1",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 5000",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "답월유향 제 1단계 습득",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [
+      {
+        "id": "draft-sect-1617",
+        "title": "휘월신공",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-sect-lingyue-zhenpai",
+        "title": "진파 무공 습득-전대 수기·의천미종Ⅱ",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-sect-1621",
+        "title": "청휘한영경",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start"
+      },
+      {
+        "id": "draft-sect-1623",
+        "title": "나비무늬 치마",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start"
+      }
+    ],
+    "officialNames": [
+      "의천미종·Ⅰ"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1617",
+    "title": "휘월신공",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "의천미종 완료",
+      "휘월신공 4단계 구결 습득",
+      "후반에는 휘월신공 7단계 돌파·활성"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1616",
+        "title": "의천미종-진파 선행",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "의천미종 완료"
+      }
+    ],
+    "materials": [
+      "공헌 20000(5~7단계 4000+8~10단계 16000)",
+      "은화 5냥"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "휘월신공 10단계 수련 해금",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 5000",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "은화 1냥 500푼",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "휘월신공"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-lingyue-zhenpai",
+    "title": "진파 무공 습득-전대 수기·의천미종Ⅱ",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "의천미종Ⅰ 완료",
+      "무상검결 또는 천모잔월장 4단계 구결 습득",
+      "후반 8~10단계: 주요임무 비밀 탐색에서 양옥랑 격파 필요"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1616",
+        "title": "의천미종-진파 선행",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "의천미종Ⅰ 완료"
+      }
+    ],
+    "materials": [
+      "문파공헌 14000",
+      "검남소춘 1",
+      "삽(발굴 2곳, 필요 소모 수량 미확인)",
+      "문파공헌 10000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "진파 외공 10단계 수련 해금",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "동전 800푼",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 3000",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "전대 수기",
+      "의천미종·Ⅱ"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1621",
+    "title": "청휘한영경",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "주인공 80레벨 이상",
+      "주요임무 축검산장 도달",
+      "한백빙심·의천미종 완료"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1616",
+        "title": "의천미종-진파 선행",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "한백빙심·의천미종 완료"
+      },
+      {
+        "id": "draft-sect-1613",
+        "title": "월심한백결-한백빙심",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "한백빙심·의천미종 완료"
+      }
+    ],
+    "materials": [
+      "문방사보 1",
+      "자금 180",
+      "설은 100",
+      "얼음잠사 10",
+      "월광석 3",
+      "한사옥죽 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "청휘한영경 1",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "청휘한영경"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1622",
+    "title": "요광원의 곤경-요광 곤경",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "영월 장법 10단계 및 제 5초식 습득",
+      "천운장갑 또는 상월장갑 보유"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "문파공헌 4000 또는 6000(대상 장갑에 따라)",
+      "화양단 1"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "선택 장갑에 오권 효과 부여",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "요광원의 곤경"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1623",
+    "title": "나비무늬 치마",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "의천 미종 완료",
+      "핵심 제자"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "draft-sect-1616",
+        "title": "의천미종-진파 선행",
+        "region": "명월산",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "의천 미종 완료"
+      }
+    ],
+    "materials": [
+      "잠사 200",
+      "오루 60",
+      "목련꽃 20",
+      "자정향 20",
+      "공헌 6000"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "나비무늬 치마 코스튬",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "나비무늬 치마"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1627",
+    "title": "영월·언월진",
+    "region": "명월산",
+    "regions": [
+      "명월산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "영월궁",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "량연 또는 조남정을 사부로 모심"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "문방사보 20"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "언월진 학습",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "열력 4000",
+        "sourceLineId": null
+      },
+      {
+        "type": "common",
+        "choice": null,
+        "text": "동전 800푼",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "영월·언월진"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%EC%98%81%EC%9B%94%EA%B6%81",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  },
+  {
+    "id": "draft-sect-1662",
+    "title": "화현신검결",
+    "region": "태을산",
+    "regions": [
+      "태을산"
+    ],
+    "browseCategory": "강호문파",
+    "browseGroup": "강호문파",
+    "owner": "태을교",
+    "recommendedLevel": "등급 정보 없음",
+    "prerequisites": [
+      "핵심 제자 도달(3출)"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "화현신검결 수련 상한 10중 해금",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [
+      "화현신검결"
+    ],
+    "sourceUrl": "https://namu.wiki/w/%EB%82%AD%EB%A7%8C%EA%B0%95%ED%98%B8/%ED%83%9C%EC%9D%84%EA%B5%90",
+    "requiresOwnedCompanion": null,
+    "factionAssociations": null,
+    "verifiedAt": "2026-10-25"
+  }
+]
