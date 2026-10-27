@@ -107,14 +107,25 @@ dialog:is(#ownedDialog,#backupDialog,#helpDialog,#sourceDialog)>form>header{just
 }
 /* Owned filter stays beside status controls, wrapping only when space is tight. */
 .status-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap;min-width:0}
-.controls .status-tools>#ownerLine{display:flex;padding:0;background:transparent;white-space:nowrap;min-height:32px}
+.controls .status-tools>#ownerLine{display:flex;width:auto;flex:0 0 auto;padding:0;background:transparent;white-space:nowrap;min-height:32px}
 .controls .status-tools .statuses button{font-size:14px;min-width:54px;padding-left:9px;padding-right:9px;min-height:42px}
+.owned-label-mobile{display:none}
+.controls #ownerLine .owned-label-wide{font:inherit}
 @media(min-width:1200px){.controls .status-tools{grid-column:4;grid-row:1}}
 @media(min-width:821px) and (max-width:1199px){.controls .status-tools{grid-column:1 / -1;grid-row:2}}
 @media(max-width:820px){
   .controls select,.controls input,.controls #browseButton,.controls input::placeholder{font-size:15px}
   .controls>label.search-control{grid-row:2}
-  .controls .status-tools{grid-column:1 / -1;grid-row:3;justify-content:space-between}
+  .controls .status-tools{grid-column:1 / -1;grid-row:3;justify-content:space-between;flex-wrap:nowrap;gap:12px}
+  .controls .status-tools .statuses{flex:0 0 auto}
+  .controls .status-tools .statuses button{min-width:0;min-height:36px;padding:4px 9px}
+  .controls .status-tools>#ownerLine{flex:0 0 auto;gap:10px;font-size:13px}
+  .controls #ownerLine input{flex:0 0 17px;width:17px;height:17px;margin:0}
+  .controls #ownerLine .owned-label-wide{display:none}
+  .controls #ownerLine .owned-label-mobile{display:inline;font:500 13px var(--display)}
+  .progress .rate-group{grid-template-columns:auto minmax(0,1fr) max-content;gap:10px}
+  .progress .rate-group .rate-bar{width:100%;margin:0}
+  .progress .rate-group b{position:static;text-align:right}
   #resultCount{grid-row:4}
 }
 /* Approved wide-PC layout: title above side-by-side profile/progress. */

@@ -8,16 +8,16 @@ test('legacy profiles default owned filter on without writing or changing quest 
  assert.deepEqual(reopened.model.profiles[1].done,['old','unknown']);assert.deepEqual(reopened.model.profiles[1].doing,['progress']);
  const other=R.open({getItem:()=>null,setItem(){}});other.importBackup(reopened.backup());assert.deepEqual(other.model.profiles,reopened.model.profiles);
 });
-test('owned filter works in every scope but only excludes unowned companion requirements',()=>{
+test('owned filter works in every scope including unowned recruitment quests',()=>{
  const all=JSON.parse(fs.readFileSync('quests-core.json','utf8')).quests,app=fs.readFileSync('app.js','utf8');
  const state={data:{quests:all},scope:{kind:'all'},ownedOnly:true,query:'',difficulty:'all',status:'all'};
  const ctx={state,GanghoBrowse:require('../browse.js'),profile:()=>({owned:[]}),status:()=> 'todo',difficultyTags:()=>[]};vm.createContext(ctx);
  vm.runInContext(app.split('\n').filter(l=>/^(const normalizeSearch=|function searchRank\(|function filtered\()/.test(l)).join('\n')+'\nthis.run=filtered',ctx);
- const required=all.filter(q=>q.browseCategory==='동료임무'&&q.requiresOwnedCompanion===true);
+ const required=all.filter(q=>q.browseCategory==='동료임무');
  assert.equal(ctx.run().length,389-required.length);assert(ctx.run().every(q=>!required.includes(q)));
  assert(all.filter(q=>q.browseCategory!=='동료임무').every(q=>ctx.run().includes(q)));
  state.scope={kind:'category',value:'동료임무'};
- assert(ctx.run().every(q=>q.requiresOwnedCompanion!==true));assert(ctx.run().length>0);
+ assert.equal(ctx.run().length,0);
  state.ownedOnly=false;assert(ctx.run().some(q=>q.requiresOwnedCompanion===true));
 });
 test('owned checkbox stays visible in all scopes and popup names the current profile',()=>{

@@ -12,6 +12,6 @@
     if(groups.includes(branch))return [...new Set(quests.filter(q=>q.browseGroup===branch).flatMap(q=>q.regions))].filter(Boolean).map(value=>({kind:'region',value,label:value}));
     return [...new Set(quests.filter(q=>q.browseCategory===branch).map(q=>q.owner).concat(branch==='소형세력'?quests.flatMap(q=>q.factionAssociations||[]):[]))].filter(Boolean).map(value=>({kind:'owner',category:branch,value,label:value}));
   }
-  function ownedVisible(q,only,owned){return !only||q.browseCategory!=='동료임무'||q.requiresOwnedCompanion!==true||owned.includes(q.owner);}
+  function ownedVisible(q,only,owned){return !only||q.browseCategory!=='동료임무'||owned.includes(q.owner);}
   return {groups,branches,matches,entries,ownedVisible};
 });
