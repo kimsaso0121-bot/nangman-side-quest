@@ -13,5 +13,6 @@
     return [...new Set(quests.filter(q=>q.browseCategory===branch).map(q=>q.owner).concat(branch==='소형세력'?quests.flatMap(q=>q.factionAssociations||[]):[]))].filter(Boolean).map(value=>({kind:'owner',category:branch,value,label:value}));
   }
   function ownedVisible(q,only,owned){return !only||q.browseCategory!=='동료임무'||owned.includes(q.owner);}
-  return {groups,branches,matches,entries,ownedVisible};
+  function schoolVisible(q,only,schools=[]){return !only||q.browseCategory!=='강호문파'||schools.includes(q.owner);}
+  return {groups,branches,matches,entries,ownedVisible,schoolVisible};
 });

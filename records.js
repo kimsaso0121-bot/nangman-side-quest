@@ -20,7 +20,7 @@
       // Retain the historical alias itself as well as its existing canonical completion.
       if(done.includes('1.10-q19')&&!done.includes('1.10-q10'))done.push('1.10-q10');
       const doing=ids(p.doing,true).filter(id=>!done.includes(id)),owned=ids(p.owned,true);
-      return {...clone(p),id:p.id||`character-${i+1}`,name:p.name,done,doing,owned,ownedOnly:p.ownedOnly!==false};
+      return {...clone(p),id:p.id||`character-${i+1}`,name:p.name,done,doing,owned,ownedOnly:p.ownedOnly!==false,schools:ids(p.schools,true),schoolOnly:p.schoolOnly===true};
     });
     result.active=Number.isInteger(value.active)&&value.active>=0&&value.active<3?value.active:0;
     result.recordVersion=2;
