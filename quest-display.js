@@ -18,6 +18,65 @@
     'draft-minor-1470':'소녀 로잔-마르 부족 해금'
   };
   const shortNames={'소림사':'소림','천도문':'천도','영월궁':'영월','창랑문':'창랑','극락곡':'극락'};
+  // User-provided revised guide, 2026-11-01. Intermediate loot is not a common final reward.
+  const updates={
+    '1.21-q05':{
+      recommendedLevel:'80레벨 이상',
+      prerequisites:['주인공 80레벨 이상','주요임무 「형산풍파」 완료','주요임무 「의문 가득, 칠살 재현」 시작'],
+      materials:['[치료약] × 1(구전환혼단 제외, 양옥랑 생존·봐주기 분기에서 사용)','[삽] × 1(양옥랑·고월추 처치 분기에서 매장 시 필요)','[은화] × 2냥(양옥랑 생존 분기의 공연 관람료, 이후 회수)'],
+      finalRewards:[
+        {type:'user-verified',choice:null,text:'선택지에 따라 상이'}
+      ],
+      followupNotes:[
+        '주요임무 「화기천도, 욱수현위」까지 진행한 경우: [진실을 알린다] 선택 시 추후 주요임무에서 양옥랑·고월추가 적으로 재등장. [진실을 숨깁니다] 선택 시 두 사람이 서역으로 떠나 주요임무에 등장하지 않음.'
+      ],
+      verifiedAt:'2026-11-01'
+    }
+  };
+  // Wording only: retain source strings, quantities, quest IDs and progression semantics.
+  const conditionEdits={
+    '남양도 주요 임무 완성, 등급≥20급':'남양도 주요임무 완료, 주인공 20레벨 이상',
+    '레벨 ≥ 85, 주요임무 「헝산 활성화」 완료':'주인공 85레벨 이상, 주요임무 「헝산 활성화」 완료',
+    '등급 70 이상':'주인공 70레벨 이상',
+    '등급 50 이상':'주인공 50레벨 이상',
+    '35등급 이상':'주인공 35레벨 이상',
+    '70등급 이상':'주인공 70레벨 이상',
+    '40등급에 시작 가능/ 임무 중 전투에서 넉넉히 이기려면 캐릭터 60등급이상 필요':'주인공 40레벨부터 시작 가능/ 임무 중 전투에서 넉넉히 이기려면 주인공 60레벨 이상 필요',
+    '주요임무-연남연북 완료':'주요임무 「연남연북」 완료',
+    '주요임무 천하도종·강호광인 완료':'주요임무 「천하도종·강호광인」 완료',
+    '주요임무 탑림 보호막 완료':'주요임무 「탑림 보호막」 완료',
+    '주요임무 협력 완료':'주요임무 「협력」 완료',
+    '차선임무 독술 완료':'차선임무 「독술」 완료',
+    '차선임무 기련산 보물·탕마창의 완료':'차선임무 「기련산 보물·탕마창의」 완료',
+    '주요임무 천리추격·지옥무문 진행 중 해금':'주요임무 「천리추격·지옥무문」 진행 중 해금',
+    '주요임무 "항주"까지 진행':'주요임무 「항주」까지 진행',
+    '주요임무 단독행동에서 호식이 돕기 선택':'주요임무 「단독행동」에서 호식이 돕기 선택',
+    '주요임무 축검산장 도달':'주요임무 「축검산장」 도달',
+    '후반 8~10단계: 주요임무 비밀 탐색에서 양옥랑 격파 필요':'후반 8~10단계: 주요임무 「비밀 탐색」에서 양옥랑 격파 필요'
+  };
+  function condition(text){
+    return (conditionEdits[text]||text)
+      .replaceAll('복희도 진급','복희도법 진급')
+      .replace(/주요 임무/g,'주요임무')
+      .replace(/캐릭터 (\d+)등급\s*이상/g,'주인공 $1레벨 이상')
+      .replace('시작은 50등급부터 가능','시작은 50레벨부터 가능')
+      .replace(/주인공 레벨\s*≥\s*(\d+)/g,'주인공 $1레벨 이상')
+      .replace('임무완료','임무 완료')
+      .replace(/주요임무 \[([^\]]+)\]/g,'주요임무 「$1」')
+      .replace(/주요임무를 \[([^\]]+)\]/g,'주요임무 「$1」')
+      .replace('「천도엽주, 요승현장」(9장 마지막까지) 임무 완료','「천도엽주, 요승현장」(9장 마지막까지) 완료');
+  }
+  function level(text){
+    // Do not convert martial-art levels such as 문황경 200등급.
+    return text.replace(/^(\d+)등급/g,'$1레벨')
+      .replace('주인공 50등급 이상','주인공 50레벨 이상')
+      .replace(/(이기려면 |대략 |시작은 )(\d+)등급/g,'$1$2레벨');
+  }
+  const variableFinalRewards=new Set(['1.3-q01','1.5-q06','1.8-q08','1.10-q16','1.10-q21','1.14-q06','1.27-q06']);
+  function rewardSummary(q){
+    if(variableFinalRewards.has(q.id))return [{type:'user-verified',choice:null,text:'선택지에 따라 상이'}];
+    return q.finalRewards.map(r=>({...r,text:r.text.replace(/^선택지에 따라 (?:최종보상 |보상 )?상이$/,'선택지에 따라 상이')}));
+  }
   function title(q){
     let text=titles[q.id]||q.title;
     if(q.browseCategory==='강호문파'&&schools.includes(q.owner)){
@@ -32,7 +91,7 @@
   function prepare(data){
     const names=new Map(data.quests.map(q=>[q.id,title(q)]));
     const relation=r=>({...r,title:names.get(r.id)||r.title});
-    return {...data,quests:data.quests.filter(q=>!hiddenIds.has(q.id)).map(q=>({...q,title:names.get(q.id),prerequisiteQuests:(q.prerequisiteQuests||[]).map(relation),followupQuests:(q.followupQuests||[]).map(relation),prerequisites:q.prerequisites.map(s=>s.replaceAll('복희도 진급','복희도법 진급'))}))};
+    return {...data,quests:data.quests.filter(q=>!hiddenIds.has(q.id)).map(original=>{const q={...original,...updates[original.id]};return {...q,title:names.get(q.id),recommendedLevel:level(q.recommendedLevel),prerequisiteQuests:(q.prerequisiteQuests||[]).map(relation),followupQuests:(q.followupQuests||[]).map(relation),prerequisites:q.prerequisites.map(condition),finalRewards:rewardSummary(q)}})};
   }
   return {schools,hiddenIds,title,prepare};
 });
