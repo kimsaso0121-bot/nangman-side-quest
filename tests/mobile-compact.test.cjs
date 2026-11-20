@@ -7,3 +7,11 @@ test('mobile compact layout leaves storage and PC styling outside its media scop
  assert(css.includes('.controls #ownerLine .owned-label-wide{font:inherit}'));
  assert(css.includes('.controls .status-tools>#ownerLine{display:flex;width:auto;flex:0 0 auto;'));
 });
+
+test('return-button spacing is mobile-only and preserves its existing inner padding and frame',()=>{
+ const css=fs.readFileSync('update.css','utf8'),approved=css.slice(css.indexOf('/* Approved return-button spacing only;'));
+ assert(approved.includes('@media(max-width:820px)'));
+ assert(approved.includes('#mobileBack{display:flex;align-items:center;gap:8px;margin:0 0 9px}'));
+ assert(approved.includes('@media(max-width:480px){#mobileBack{margin-bottom:8px}}'));
+ assert(!/padding|min-height|#questDetail|\.detail-pane/.test(approved));
+});

@@ -20,6 +20,13 @@
   const shortNames={'소림사':'소림','천도문':'천도','영월궁':'영월','창랑문':'창랑','극락곡':'극락'};
   // User-provided revised guide, 2026-11-01. Intermediate loot is not a common final reward.
   const updates={
+    '1.22-q06':{
+      materials:['[장작] × 10, [술] × 1(마유주·여아홍 제외, 막걸리 추천)','선택: [삽] × 1([귀를 가까이 댄다] 선택 후 숨겨진 술 발굴 시 필요)']
+    },
+    'draft-journal-miwen03':{
+      regions:['기련산'],
+      prerequisites:['잡담·중동의 해당 단서 열람','기련산에서 시작']
+    },
     '1.21-q05':{
       recommendedLevel:'80레벨 이상',
       prerequisites:['주인공 80레벨 이상','주요임무 「형산풍파」 완료','주요임무 「의문 가득, 칠살 재현」 시작'],
@@ -77,6 +84,14 @@
     if(variableFinalRewards.has(q.id))return [{type:'user-verified',choice:null,text:'선택지에 따라 상이'}];
     return q.finalRewards.map(r=>({...r,text:r.text.replace(/^선택지에 따라 (?:최종보상 |보상 )?상이$/,'선택지에 따라 상이')}));
   }
+  function materialRows(q){
+    // Group simultaneous requirements without splitting commas inside explanations.
+    // Western dancer's three rows each describe a different conditional use.
+    if(q.materials.length<2||q.id==='1.21-q05'||q.id==='1.24-q04')return q.materials;
+    const conditional=/^(선택 [12]:|선박 구매:|조선:|선택:|조건부:|남자주인공은 |약초제조 경로 선택 시 |후속 경로만:)/;
+    const common=q.materials.filter(s=>!conditional.test(s)),separate=q.materials.filter(s=>conditional.test(s));
+    return [...(common.length?[common.join(', ')]:[]),...separate];
+  }
   function title(q){
     let text=titles[q.id]||q.title;
     if(q.browseCategory==='강호문파'&&schools.includes(q.owner)){
@@ -91,7 +106,7 @@
   function prepare(data){
     const names=new Map(data.quests.map(q=>[q.id,title(q)]));
     const relation=r=>({...r,title:names.get(r.id)||r.title});
-    return {...data,quests:data.quests.filter(q=>!hiddenIds.has(q.id)).map(original=>{const q={...original,...updates[original.id]};return {...q,title:names.get(q.id),recommendedLevel:level(q.recommendedLevel),prerequisiteQuests:(q.prerequisiteQuests||[]).map(relation),followupQuests:(q.followupQuests||[]).map(relation),prerequisites:q.prerequisites.map(condition),finalRewards:rewardSummary(q)}})};
+    return {...data,quests:data.quests.filter(q=>!hiddenIds.has(q.id)).map(original=>{const q={...original,...updates[original.id]};return {...q,title:names.get(q.id),recommendedLevel:level(q.recommendedLevel),prerequisiteQuests:(q.prerequisiteQuests||[]).map(relation),followupQuests:(q.followupQuests||[]).map(relation),prerequisites:q.prerequisites.map(condition),materials:materialRows(q),finalRewards:rewardSummary(q)}})};
   }
   return {schools,hiddenIds,title,prepare};
 });

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-26",
-  "questCount": 389,
+  "generatedAt": "2026-11-20",
+  "questCount": 392,
   "chunks": [
     "quests-01.json",
     "quests-02.json",
@@ -22,7 +22,8 @@
     "quests-17.json",
     "quests-18.json",
     "quests-19.json",
-    "quests-20.json"
+    "quests-20.json",
+    "quests-21.json"
   ],
   "companions": [
     "진원봉",

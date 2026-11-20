@@ -1,0 +1,119 @@
+[
+  {
+    "id": "1.14-q10",
+    "title": "만두향기",
+    "region": "유주",
+    "regions": [
+      "유주"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "동북변경",
+    "owner": "유주",
+    "recommendedLevel": "45레벨 이상",
+    "prerequisites": [
+      "주인공 45레벨 이상"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "[조미료] × 5(낙양-동시 잡화 노점에서 구매)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "[명성] × 5, [은화] × 1냥, [열력] × 1,500, [돼지고기 만두] × 3",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/낭만강호/차선임무#s-1.14",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-11-20"
+  },
+  {
+    "id": "1.14-q11",
+    "title": "나기 수련기",
+    "region": "유주",
+    "regions": [
+      "유주"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "동북변경",
+    "owner": "유주",
+    "recommendedLevel": "60레벨 이상",
+    "prerequisites": [
+      "주인공 60레벨 이상",
+      "차선임무 「1위 다툼」 완료",
+      "맑은 날 오시에 유주(17,23)에서 시작"
+    ],
+    "prerequisiteQuests": [
+      {
+        "id": "1.6-q02",
+        "title": "1위 다툼",
+        "region": "봉명집",
+        "relation": "complete",
+        "stage": "start",
+        "sourceClause": "봉명집 차선임무 「1위 다툼」 완료"
+      }
+    ],
+    "materials": [
+      "[소나무] × 30, [적동] × 30, [흑철] × 30"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "[명성] × 5, [은화] × 2냥, [열력] × 1,500",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [
+      "임무 완료 후 나기는 유주-나부 서재에 상주. 유주-나부(19,30)에서 [기관 암기] 문의 시 [벽력주] × 1 또는 [수전] × 1 획득 가능.",
+      "유주-장군부(9,25)에서 이청봉에게 [나기] 문의 시 추가 대화 가능."
+    ],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/낭만강호/차선임무#s-1.14",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-11-20"
+  },
+  {
+    "id": "1.22-q06",
+    "title": "비오는 밤의 취객",
+    "region": "새북",
+    "regions": [
+      "새북"
+    ],
+    "browseCategory": "지역 차선임무",
+    "browseGroup": "서북대막",
+    "owner": "새북",
+    "recommendedLevel": "80레벨 이상",
+    "prerequisites": [
+      "주인공 80레벨 이상",
+      "비 오는 날 술시~인시에 새북(2,10)에서 시작"
+    ],
+    "prerequisiteQuests": [],
+    "materials": [
+      "[장작] × 10, [술] × 1(마유주·여아홍 제외, 막걸리 추천), [삽] × 1([귀를 가까이 댄다] 선택 후 숨겨진 술 발굴 시 필요)"
+    ],
+    "finalRewards": [
+      {
+        "type": "common",
+        "choice": null,
+        "text": "[명성] × 5, [은화] × 1냥, [열력] × 5,000",
+        "sourceLineId": null
+      }
+    ],
+    "followupNotes": [],
+    "followupQuests": [],
+    "officialNames": [],
+    "sourceUrl": "https://namu.wiki/w/낭만강호/차선임무#s-1.22",
+    "requiresOwnedCompanion": false,
+    "factionAssociations": null,
+    "verifiedAt": "2026-11-20"
+  }
+]

@@ -18,8 +18,8 @@ test('existing progress, skill and exclusion conditions remain explicit rather t
 });
 test('all internal quest relationships and original data survive presentation consolidation',()=>{
  const before=JSON.stringify(raw),byId=new Map(raw.quests.map(q=>[q.id,q]));
- const related=data.quests.filter(q=>q.prerequisiteQuests.length);assert.equal(related.length,84);
- assert.equal(related.reduce((n,q)=>n+q.prerequisiteQuests.length,0),134);
+ const related=data.quests.filter(q=>q.prerequisiteQuests.length);assert.equal(related.length,85);
+ assert.equal(related.reduce((n,q)=>n+q.prerequisiteQuests.length,0),135);
  for(const q of data.quests)assert.deepEqual(q.prerequisiteQuests.map(r=>({id:r.id,relation:r.relation,stage:r.stage,sourceClause:r.sourceClause})),byId.get(q.id).prerequisiteQuests.map(r=>({id:r.id,relation:r.relation,stage:r.stage,sourceClause:r.sourceClause})));
  D.prepare(raw);assert.equal(JSON.stringify(raw),before);
 });

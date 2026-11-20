@@ -14,7 +14,7 @@ test('owned filter works in every scope including unowned recruitment quests',()
  const ctx={state,GanghoBrowse:require('../browse.js'),profile:()=>({owned:[]}),status:()=> 'todo',difficultyTags:()=>[]};vm.createContext(ctx);
  vm.runInContext(app.split('\n').filter(l=>/^(const normalizeSearch=|function searchRank\(|function filtered\()/.test(l)).join('\n')+'\nthis.run=filtered',ctx);
  const required=all.filter(q=>q.browseCategory==='동료임무');
- assert.equal(ctx.run().length,389-required.length);assert(ctx.run().every(q=>!required.includes(q)));
+ assert.equal(ctx.run().length,392-required.length);assert(ctx.run().every(q=>!required.includes(q)));
  assert(all.filter(q=>q.browseCategory!=='동료임무').every(q=>ctx.run().includes(q)));
  state.scope={kind:'category',value:'동료임무'};
  assert.equal(ctx.run().length,0);
