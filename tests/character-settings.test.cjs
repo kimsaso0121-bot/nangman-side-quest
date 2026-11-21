@@ -3,7 +3,7 @@ const D=require('../quest-display.js'),R=require('../records.js'),B=require('../
 const source=JSON.parse(fs.readFileSync('quests-core.json','utf8')),data=D.prepare(source);
 test('eleven quizzes and shop guidance leave the visible catalog but not source data or recorded IDs',()=>{
  const before=JSON.stringify(source),shown=new Set(data.quests.map(q=>q.id));
- assert.equal(source.quests.length,392);assert.equal(data.quests.length,380);assert.equal(D.hiddenIds.size,12);
+ assert.equal(source.quests.length,399);assert.equal(data.quests.length,387);assert.equal(D.hiddenIds.size,12);
  assert(shown.has('draft-sect-1821'),'어풍은형 remains visible');
  for(const id of D.hiddenIds){assert(source.quests.some(q=>q.id===id));assert(!shown.has(id));}
  D.prepare(source);assert.equal(JSON.stringify(source),before);
@@ -32,7 +32,7 @@ test('multi-school filter intersects existing search and scope while leaving all
  assert(eligible.some(q=>q.owner==='태을교'));assert(eligible.some(q=>q.owner==='소림사'));
  assert(eligible.filter(q=>q.browseCategory==='강호문파').every(q=>['태을교','소림사'].includes(q.owner)));
  assert(data.quests.filter(q=>q.browseCategory!=='강호문파').every(q=>eligible.includes(q)));
- assert.equal(data.quests.filter(q=>B.schoolVisible(q,false,[])).length,380);
+ assert.equal(data.quests.filter(q=>B.schoolVisible(q,false,[])).length,387);
  assert(!data.quests.filter(q=>B.schoolVisible(q,true,[])).some(q=>q.browseCategory==='강호문파'));
  const state={data,scope:{kind:'category',value:'강호문파'},ownedOnly:false,difficulty:'all',status:'all',query:'활맥법'};
  const context={state,GanghoBrowse:B,profile:()=>({owned:[],schools:['천도문'],schoolOnly:true}),status:()=> 'todo',difficultyTags:()=>[]};vm.createContext(context);
@@ -44,9 +44,9 @@ test('approved names preserve IDs, official names and relationships across both 
  assert.deepEqual(D.prepare(chunkSource).quests,data.quests);const byId=new Map(data.quests.map(q=>[q.id,q]));
  assert.equal(byId.get('draft-minor-1133').title,'복희도법 진급');assert.equal(byId.get('draft-minor-1134').title,'복희도 승련-무기 강화');
  assert.equal(byId.get('draft-journal-sb').title,'강호잡담·상백-보리 염주');assert.equal(byId.get('draft-journal-ouyang').title,'강호잡담·임종-구양이삼의 차');
- for(const q of data.quests){const old=source.quests.find(x=>x.id===q.id);assert.deepEqual(q.officialNames,old.officialNames);if(q.id!=='1.21-q05')for(const material of old.materials)assert(q.materials.some(s=>s.includes(material))||(q.id==='1.22-q06'&&q.materials.map(s=>s.replace(/^선택: /,'')).join(', ')===material),q.id+': '+material);if(q.browseCategory==='강호문파')assert(q.title.startsWith(q.owner+'·'));for(const r of [...q.prerequisiteQuests,...q.followupQuests])if(byId.has(r.id))assert.equal(r.title,byId.get(r.id).title);}
+ for(const q of data.quests){const old=source.quests.find(x=>x.id===q.id);assert.deepEqual(q.officialNames,old.officialNames);if(q.id!=='1.21-q05')for(const material of old.materials)assert(q.materials.some(s=>s.includes(D.quantity(material)))||(q.id==='1.22-q06'&&q.materials.map(s=>s.replace(/^선택: /,'')).join(', ')===material),q.id+': '+material);if(q.browseCategory==='강호문파')assert(q.title.startsWith(q.owner+'·'));for(const r of [...q.prerequisiteQuests,...q.followupQuests])if(byId.has(r.id))assert.equal(r.title,byId.get(r.id).title);}
  const html=fs.readFileSync('index.html','utf8'),staticList=html.split('<!-- STATIC_QUEST_LIST_START -->')[1].split('<!-- STATIC_QUEST_LIST_END -->')[0];
- assert.equal((staticList.match(/<article /g)||[]).length,380);for(const id of D.hiddenIds)assert(!staticList.includes('data-id="'+id+'"'));
+ assert.equal((staticList.match(/<article /g)||[]).length,387);for(const id of D.hiddenIds)assert(!staticList.includes('data-id="'+id+'"'));
 });
 test('revised western dancer conditions and optional materials preserve the existing quest identity',()=>{
  const q=data.quests.find(q=>q.id==='1.21-q05'),old=source.quests.find(q=>q.id===q.id);
@@ -54,7 +54,7 @@ test('revised western dancer conditions and optional materials preserve the exis
  assert.deepEqual(q.prerequisites,['주인공 80레벨 이상','주요임무 「형산풍파」 완료','주요임무 「의문 가득, 칠살 재현」 시작']);
  assert.equal(q.materials.length,3);assert(q.materials[0].includes('구전환혼단 제외'));assert(q.materials[0].includes('봐주기 분기'));assert(q.materials[1].includes('매장 시 필요'));assert(q.materials[2].includes('이후 회수'));
  const original=source.quests.find(x=>x.id===q.id);for(const key of ['id','officialNames','sourceUrl','region','regions','browseCategory'])assert.deepEqual(q[key],original[key]);
- assert.equal(data.quests.length,380);assert.equal(original.materials.length,1);
+ assert.equal(data.quests.length,387);assert.equal(original.materials.length,1);
 });
 test('western dancer uses the approved choice-dependent reward summary and static level wording',()=>{
  const q=data.quests.find(q=>q.id==='1.21-q05');

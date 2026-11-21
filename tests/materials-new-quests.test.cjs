@@ -1,22 +1,22 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto'),vm=require('node:vm');
 const raw=JSON.parse(fs.readFileSync('quests-core.json','utf8')),D=require('../quest-display.js'),R=require('../records.js'),B=require('../browse.js'),data=D.prepare(raw),get=id=>data.quests.find(q=>q.id===id);
 const newIds=['1.14-q10','1.14-q11','1.22-q06'];
-test('all 389 existing source quests are byte-for-byte equivalent as JSON objects; only three IDs are appended',()=>{
+test('all 389 existing source quests are byte-for-byte equivalent as JSON objects; original three additions remain in place',()=>{
  assert.equal(crypto.createHash('sha256').update(JSON.stringify(raw.quests.slice(0,389))).digest('hex'),'c50dfa47dcb0320533f2e4aa6738bf8f92d250b1a3703d14118426b825ff5aed');
- assert.deepEqual(raw.quests.slice(389).map(q=>q.id),newIds);assert.equal(raw.quests.length,392);assert.equal(data.quests.length,380);
+ assert.deepEqual(raw.quests.slice(389,392).map(q=>q.id),newIds);assert.equal(raw.quests.length,399);assert.equal(data.quests.length,387);
 });
 test('simultaneous materials form one bullet without dropping amounts, parentheses or explanations',()=>{
- assert.deepEqual(get('1.10-q01').materials,['은화 180냥, 진기 1300']);
+ assert.deepEqual(get('1.10-q01').materials,['[은화] × 180냥, [진기] × 1300']);
  assert.equal(get('1.14-q09').materials.length,1);
  assert(get('1.14-q09').materials[0].includes('돌(수량 미확인), 나무(수량 미확인)'));
- for(const q of data.quests){if(q.id==='1.21-q05'||q.id==='1.22-q06')continue;const old=raw.quests.find(x=>x.id===q.id);for(const s of old.materials)assert(q.materials.some(line=>line.includes(s)),q.title+': '+s);}
+ for(const q of data.quests){if(q.id==='1.21-q05'||q.id==='1.22-q06')continue;const old=raw.quests.find(x=>x.id===q.id);for(const s of old.materials)assert(q.materials.some(line=>line.includes(D.quantity(s))),q.title+': '+s);}
 });
 test('route, sex and optional requirements retain separate bullets; source is immutable and preparation is idempotent',()=>{
  assert.equal(get('1.3-q16').materials.length,2);assert(get('1.3-q16').materials[0].startsWith('선택 1:'));assert(get('1.3-q16').materials[1].startsWith('선택 2:'));
  assert.equal(get('1.10-q22').materials.length,2);assert(get('1.10-q22').materials[1].startsWith('조선:'));
  assert.equal(get('1.20-q03').materials.length,2);assert(get('1.20-q03').materials[1].startsWith('남자주인공은'));
  assert.equal(get('draft-companion-427').materials.length,2);assert(get('draft-companion-427').materials[1].startsWith('조건부:'));
- assert.equal(get('draft-sect-1616').materials.length,2);assert(get('draft-sect-1616').materials[0].includes('귀환 동전 500푼'));assert(get('draft-sect-1616').materials[1].startsWith('선택:'));
+ assert.equal(get('draft-sect-1616').materials.length,2);assert(get('draft-sect-1616').materials[0].includes('귀환 [동전] × 500푼'));assert(get('draft-sect-1616').materials[1].startsWith('선택:'));
  assert.equal(get('1.21-q05').materials.length,3);
  const before=JSON.stringify(raw);D.prepare(raw);assert.equal(JSON.stringify(raw),before);assert.deepEqual(D.prepare(data),data);
 });
@@ -43,7 +43,8 @@ test('45-level difficulty selection is available and matches the new bun quest',
  assert(ctx.tags(get('1.14-q10')).includes('level:45'));assert(fs.readFileSync('index.html','utf8').includes('<option value="level:45">45레벨</option>'));
 });
 test('중동 journal quest starts in Qilian and is not listed under Youzhou',()=>{
- const q=get('draft-journal-miwen03');assert.equal(q.region,'기련산');assert.equal(q.browseGroup,'서북대막');assert.deepEqual(q.regions,['기련산']);assert(q.prerequisites.includes('기련산에서 시작'));
+ const q=get('draft-journal-miwen03');assert.equal(q.region,'기련산');assert.equal(q.browseGroup,'서북대막');assert.deepEqual(q.regions,['기련산']);assert.deepEqual(q.prerequisites,['잡담·중동의 해당 단서 열람']);
+ assert.deepEqual(q.finalRewards,[{type:'common',choice:null,text:'[영허단] × 3, [조화단] × 3, [비영단] × 1, [명성] × 1',sourceLineId:null}]);
  assert(B.matches(q,{kind:'region',value:'기련산'}));assert(!B.matches(q,{kind:'region',value:'유주'}));assert.equal(q.id,'draft-journal-miwen03');
  const source=raw.quests.find(x=>x.id===q.id);assert.deepEqual(source.regions,['기련산','유주']);
  for(const key of ['title','materials','finalRewards','followupNotes','followupQuests','officialNames','sourceUrl'])assert.deepEqual(q[key],D.prepare({quests:[source]}).quests[0][key]);

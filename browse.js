@@ -14,5 +14,14 @@
   }
   function ownedVisible(q,only,owned){return !only||q.browseCategory!=='동료임무'||owned.includes(q.owner);}
   function schoolVisible(q,only,schools=[]){return !only||q.browseCategory!=='강호문파'||schools.includes(q.owner);}
-  return {groups,branches,matches,entries,ownedVisible,schoolVisible};
+  // Only this verified restriction is applied. Unspecified gender keeps the quest eligible.
+  // 2026-11-21: bald hairstyle required; women cannot shave (existing Korean source,
+  // corroborated by https://www.yumoxi.com/gonglue/2052.html, 老铁没毛).
+  function targetEligible(q,p){return ownedVisible(q,true,p.owned||[])&&schoolVisible(q,true,p.schools||[])&&!(q.id==='1.14-q02'&&p.gender==='female');}
+  function progressFor(quests,p){
+    const target=quests.filter(q=>targetEligible(q,p)),done=new Set(p.done||[]),doing=new Set(p.doing||[]);
+    const completed=target.filter(q=>done.has(q.id)).length,inProgress=target.filter(q=>!done.has(q.id)&&doing.has(q.id)).length,total=target.length;
+    return {completed,inProgress,total,percent:!total?0:completed===total?100:Math.min(99,Math.round(completed/total*100))};
+  }
+  return {groups,branches,matches,entries,ownedVisible,schoolVisible,targetEligible,progressFor};
 });

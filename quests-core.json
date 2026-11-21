@@ -17117,6 +17117,353 @@
       "requiresOwnedCompanion": false,
       "factionAssociations": null,
       "verifiedAt": "2026-11-20"
+    },
+    {
+      "browseCategory": "강호문파",
+      "browseGroup": "강호문파",
+      "prerequisiteQuests": [],
+      "requiresOwnedCompanion": null,
+      "factionAssociations": null,
+      "verifiedAt": "2026-11-21",
+      "sourceUrl": null,
+      "id": "sect-1624",
+      "title": "무기 승련",
+      "region": "명월산",
+      "regions": [
+        "명월산"
+      ],
+      "owner": "영월궁",
+      "recommendedLevel": "100레벨 이상",
+      "officialNames": [
+        "무기 승련"
+      ],
+      "prerequisites": [
+        "영월궁 소속",
+        "주인공 100레벨 이상",
+        "일반 승련·정련 안내 과정 완료",
+        "의천미종Ⅱ 완료",
+        "휘월신공 10중",
+        "순수 유리체 습득자 존재",
+        "90레벨 무상장검·잔월장갑 보유(승련 대상, 환화 효과 해제)"
+      ],
+      "materials": [
+        "[곤오석] × 200, [연금니] × 20, [신수천정] × 4, [진기] × 2,000"
+      ],
+      "finalRewards": [
+        {
+          "type": "common",
+          "choice": null,
+          "text": "[무상장검]·[잔월장갑] 100레벨 승련, [명성] × 2, [열력] × 5,000, [동전] × 800",
+          "sourceLineId": null
+        }
+      ],
+      "followupNotes": [
+        "승련 장비는 판매·분해·버리기가 불가능합니다."
+      ],
+      "followupQuests": [
+        {
+          "id": "sect-1625",
+          "title": "의천검",
+          "region": "명월산",
+          "relation": "complete",
+          "stage": "start"
+        }
+      ]
+    },
+    {
+      "browseCategory": "강호문파",
+      "browseGroup": "강호문파",
+      "prerequisiteQuests": [
+        {
+          "id": "sect-1624",
+          "title": "무기 승련",
+          "region": "명월산",
+          "relation": "complete",
+          "stage": "start"
+        }
+      ],
+      "requiresOwnedCompanion": null,
+      "factionAssociations": null,
+      "verifiedAt": "2026-11-21",
+      "sourceUrl": null,
+      "id": "sect-1625",
+      "title": "의천검",
+      "region": "명월산",
+      "regions": [
+        "명월산"
+      ],
+      "owner": "영월궁",
+      "recommendedLevel": "100레벨 이상",
+      "officialNames": [
+        "의천검"
+      ],
+      "prerequisites": [
+        "영월궁 소속",
+        "차선임무 「무기 승련」 완료 후 서신 수신",
+        "진행 중: 영월검법·월녀검법·의천검결·무상검결 중 하나 활성화"
+      ],
+      "materials": [
+        "[곤오석] × 100, [연금니] × 10, [진기] × 1,750"
+      ],
+      "finalRewards": [
+        {
+          "type": "common",
+          "choice": null,
+          "text": "[의천검] 100레벨 강화 완료, [명성] × 2, [열력] × 5,000, [동전] × 800",
+          "sourceLineId": null
+        }
+      ],
+      "followupNotes": [
+        "의천검과 신수천정 2개는 진행 중 지급받으므로 외부 준비물에 포함하지 않습니다.",
+        "진기는 총 1,750 소모하며 단계 사이 회복할 수 있습니다. 빙화굴 진입 시 500 이상, 신수지 단계에서는 1,000 이상 필요합니다."
+      ],
+      "followupQuests": []
+    },
+    {
+      "browseCategory": "강호문파",
+      "browseGroup": "강호문파",
+      "prerequisiteQuests": [],
+      "requiresOwnedCompanion": null,
+      "factionAssociations": null,
+      "verifiedAt": "2026-11-21",
+      "sourceUrl": null,
+      "id": "sect-1721",
+      "title": "천랑북가 승련",
+      "region": "창랑문",
+      "regions": [
+        "창랑문"
+      ],
+      "owner": "창랑문",
+      "recommendedLevel": "등급 정보 없음",
+      "officialNames": [
+        "천랑북가 승련"
+      ],
+      "prerequisites": [
+        "천랑북가 제작 관련 진행 후 「흑풍 밀서」 획득·전달",
+        "승련 제출 시 90레벨 천랑북가 보유(환화 효과 해제)"
+      ],
+      "materials": [
+        "[곤오석] × 90, [창랑 공헌] × 14,000"
+      ],
+      "finalRewards": [
+        {
+          "type": "common",
+          "choice": null,
+          "text": "[천랑북가] 100레벨 승련",
+          "sourceLineId": null
+        }
+      ],
+      "followupNotes": [
+        "승련 장비는 판매·분해·버리기가 불가능합니다."
+      ],
+      "followupQuests": []
+    },
+    {
+      "browseCategory": "지역 차선임무",
+      "prerequisiteQuests": [],
+      "requiresOwnedCompanion": false,
+      "factionAssociations": null,
+      "verifiedAt": "2026-11-21",
+      "sourceUrl": null,
+      "id": "quest-2600",
+      "title": "잔신파지법",
+      "region": "백산",
+      "regions": [
+        "백산"
+      ],
+      "browseGroup": "동북변경",
+      "owner": "백산",
+      "recommendedLevel": "등급 정보 없음",
+      "officialNames": [
+        "잔신파지법·심",
+        "잔신파지법·체",
+        "잔신파지법·형"
+      ],
+      "prerequisites": [
+        "주요임무 「무법지대, 손바닥으로 하늘 가리기」까지 진행",
+        "심매 돌파 시: 주인공 십이경맥 개통, 자질 공전절후 달성, 권각·검술·도법·장병 중 한 계열의 수위 1,000 이상, 내공·경공 수위 각각 1,000 이상",
+        "무학 정진 단계: 활성화한 진파 무학 10중·40레벨 이상, 열력 68,000 이상 보유"
+      ],
+      "materials": [
+        "[양신지] × 147, [오지간수] × 72, [반혼간] × 72, [생주로] × 72, [인삼] × 25, [영지] × 25, [하수오] × 9(정신단·아골단 각 1개 직접 제조 및 주맥액 준비 기준, 이미 확보한 단약의 제조 재료는 제외)"
+      ],
+      "finalRewards": [
+        {
+          "type": "common",
+          "choice": null,
+          "text": "심매·체매·형매 해금 및 절경 돌파, 무학 정진 해금, 강기·내기 해금, [정진 점수] × 7(체 단계 3점·형 단계 4점 합계)",
+          "sourceLineId": null
+        }
+      ],
+      "followupNotes": [
+        "레벨 상한이 진행에 따라 93 → 96 → 100으로 확장됩니다."
+      ],
+      "followupQuests": [
+        {
+          "id": "quest-1306",
+          "title": "고창 불보",
+          "region": "낙양",
+          "relation": "complete",
+          "stage": "start"
+        }
+      ]
+    },
+    {
+      "browseCategory": "지역 차선임무",
+      "prerequisiteQuests": [],
+      "requiresOwnedCompanion": false,
+      "factionAssociations": null,
+      "verifiedAt": "2026-11-21",
+      "sourceUrl": null,
+      "id": "quest-912",
+      "title": "뇌봉탑",
+      "region": "항주",
+      "regions": [
+        "항주"
+      ],
+      "browseGroup": "강남소항",
+      "owner": "항주",
+      "recommendedLevel": "등급 정보 없음",
+      "officialNames": [
+        "항주·뇌봉탑"
+      ],
+      "prerequisites": [
+        "진행 중: 주인공 80레벨 이상·낮 시간에 진행하는 단계가 있음"
+      ],
+      "materials": [
+        "[은화] × 10냥(옥정병 구매용), [월광석] × 2, 「어초문답」(연주), [당귀] × 30, [백작] × 20, [영지] × 5",
+        "선택: [은화] × 10냥(동쪽 성문에서 지급하는 경로, 강행 시 생략)"
+      ],
+      "finalRewards": [
+        {
+          "type": "common",
+          "choice": null,
+          "text": "[명성] × 5, [열력] × 50,000, [무상단] × 5, [명혜단] × 10, [영허단] × 10, [대력환] × 10, [진용단] × 10, [익신단] × 1",
+          "sourceLineId": null
+        },
+        {
+          "type": "conditional",
+          "choice": "혜명에게 [진실을 알린다] 선택 후 추가 대화",
+          "text": "[열력] × 5,000, [생생조화단] × 1, [무상단] × 2",
+          "sourceLineId": null
+        }
+      ],
+      "followupNotes": [],
+      "followupQuests": [
+        {
+          "id": "quest-1306",
+          "title": "고창 불보",
+          "region": "낙양",
+          "relation": "complete",
+          "stage": "start"
+        }
+      ]
+    },
+    {
+      "browseCategory": "지역 차선임무",
+      "prerequisiteQuests": [
+        {
+          "id": "1.29-q01",
+          "title": "건원공",
+          "region": "곤륜산",
+          "relation": "complete",
+          "stage": "start"
+        }
+      ],
+      "requiresOwnedCompanion": false,
+      "factionAssociations": null,
+      "verifiedAt": "2026-11-21",
+      "sourceUrl": null,
+      "id": "quest-1124",
+      "title": "혈마검살",
+      "region": "성도",
+      "regions": [
+        "성도"
+      ],
+      "browseGroup": "서남파촉",
+      "owner": "성도",
+      "recommendedLevel": "100레벨 이상",
+      "officialNames": [
+        "성도·혈마검살"
+      ],
+      "prerequisites": [
+        "주인공 100레벨 이상",
+        "차선임무 「건원공」 완료",
+        "주요임무 「성화웅웅, 칠살불사」까지 진행"
+      ],
+      "materials": [
+        "[은화] × 200냥(징심산 구매용)"
+      ],
+      "finalRewards": [
+        {
+          "type": "common",
+          "choice": null,
+          "text": "[청형보계] × 1, [명성] × 10, [열력] × 10,000, [은화] × 15냥, [대력환] × 5, [진용단] × 5, [자련석] × 5, [인삼] × 5, [영지] × 5",
+          "sourceLineId": null
+        },
+        {
+          "type": "conditional",
+          "choice": "완료 후 추가 대화",
+          "text": "[은화] × 10냥, [하수오] × 5, [지황] × 5",
+          "sourceLineId": null
+        }
+      ],
+      "followupNotes": [],
+      "followupQuests": []
+    },
+    {
+      "browseCategory": "지역 차선임무",
+      "prerequisiteQuests": [
+        {
+          "id": "quest-912",
+          "title": "뇌봉탑",
+          "region": "항주",
+          "relation": "complete",
+          "stage": "start"
+        },
+        {
+          "id": "quest-2600",
+          "title": "잔신파지법",
+          "region": "백산",
+          "relation": "complete",
+          "stage": "start"
+        }
+      ],
+      "requiresOwnedCompanion": false,
+      "factionAssociations": null,
+      "verifiedAt": "2026-11-21",
+      "sourceUrl": null,
+      "id": "quest-1306",
+      "title": "고창 불보",
+      "region": "낙양",
+      "regions": [
+        "낙양"
+      ],
+      "browseGroup": "중원지역",
+      "owner": "낙양",
+      "recommendedLevel": "100레벨",
+      "officialNames": [
+        "돈황·고창불보"
+      ],
+      "prerequisites": [
+        "차선임무 「뇌봉탑」 완료",
+        "절경 돌파 완료(잔신파지법·형 완료)",
+        "[화개] 획득 이력",
+        "진행 중: 독술 200등급 이상"
+      ],
+      "materials": [
+        "[남혈한잠] × 5(구매 시 은화 270냥), [인삼] × 9, [금은화] × 9, [홍경천] × 3, [진기] × 1,000"
+      ],
+      "finalRewards": [
+        {
+          "type": "common",
+          "choice": null,
+          "text": "[호익류금당] × 1, [명성] × 6, [열력] × 50,000",
+          "sourceLineId": null
+        }
+      ],
+      "followupNotes": [],
+      "followupQuests": []
     }
   ],
   "companions": [

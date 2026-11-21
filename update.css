@@ -163,6 +163,11 @@ dialog:is(#ownedDialog,#backupDialog,#helpDialog,#sourceDialog)>form>header{just
   #ownedDialog #schoolList{gap:8px}
   #ownedDialog #schoolList label{padding:9px 10px}
 }
+/* Compact per-character gender setting; keep the existing two settings tabs. */
+#ownedDialog>form>.settings-profile{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 16px}
+#ownedDialog .settings-gender{position:relative;display:inline-flex;align-items:center;gap:8px;font-size:14px}
+#ownedDialog .settings-gender select{width:96px;min-height:36px;padding:4px 25px 4px 9px;border:1px solid #8d7658;border-radius:5px;background-color:#f4ecdc;color:#382e24;font:inherit;appearance:none;-webkit-appearance:none}
+#ownedDialog .settings-gender:after{content:"";position:absolute;right:12px;top:50%;width:7px;height:7px;border-right:2px solid #382e24;border-bottom:2px solid #382e24;transform:translateY(-68%) rotate(45deg);pointer-events:none}
 /* Approved return-button spacing only; keep the detail frame and desktop untouched. */
 @media(max-width:820px){
   #mobileBack{display:flex;align-items:center;gap:8px;margin:0 0 9px}

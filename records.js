@@ -2,7 +2,7 @@
 (function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.GanghoRecords=api;})(globalThis,function(){
   const KEY='gangho-notebook-v1',NAMES=['첫째 협객','둘째 협객','셋째 협객'];
   const clone=x=>JSON.parse(JSON.stringify(x));
-  const empty=()=>({recordVersion:2,active:0,recent:[],profiles:NAMES.map((name,i)=>({id:`character-${i+1}`,name,done:[],doing:[],owned:[]}))});
+  const empty=()=>({recordVersion:2,active:0,recent:[],profiles:NAMES.map((name,i)=>({id:`character-${i+1}`,name,done:[],doing:[],owned:[],gender:'unspecified'}))});
   function ids(value,optional=false){
     if(value===undefined&&optional)return [];
     if(!Array.isArray(value)||!value.every(x=>typeof x==='string'))throw Error('기록 목록 형식이 올바르지 않습니다.');
@@ -16,11 +16,12 @@
     const result=clone(value);
     result.profiles=value.profiles.map((p,i)=>{
       if(!p||typeof p!=='object'||typeof p.name!=='string')throw Error('캐릭터 기록이 불완전합니다.');
+      if(p.gender!==undefined&&!['unspecified','female','male'].includes(p.gender))throw Error('협객 성별 형식이 올바르지 않습니다. 원본을 보존합니다.');
       const done=ids(p.done);
       // Retain the historical alias itself as well as its existing canonical completion.
       if(done.includes('1.10-q19')&&!done.includes('1.10-q10'))done.push('1.10-q10');
       const doing=ids(p.doing,true).filter(id=>!done.includes(id)),owned=ids(p.owned,true);
-      return {...clone(p),id:p.id||`character-${i+1}`,name:p.name,done,doing,owned,ownedOnly:p.ownedOnly!==false,schools:ids(p.schools,true),schoolOnly:p.schoolOnly===true};
+      return {...clone(p),id:p.id||`character-${i+1}`,name:p.name,done,doing,owned,gender:p.gender||'unspecified',ownedOnly:p.ownedOnly!==false,schools:ids(p.schools,true),schoolOnly:p.schoolOnly===true};
     });
     result.active=Number.isInteger(value.active)&&value.active>=0&&value.active<3?value.active:0;
     result.recordVersion=2;
