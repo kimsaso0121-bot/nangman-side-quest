@@ -13,10 +13,28 @@ function renderBrowse(){
   $('#browseItems').innerHTML=browseEntries.map((e,i)=>`<button type="button" data-entry="${i}" class="${e.child?'browse-child':''}" ${e.kind==='branch'?`aria-expanded="${browseBranch===e.value}"`:''}><span>${esc(e.label)}</span>${e.kind==='branch'?`<span aria-hidden="true">${browseBranch===e.value?'−':'+'}</span>`:''}</button>`).join('');
 }
 function closeBrowse(focus=false){$('#browseItems').hidden=true;$('#browseButton').setAttribute('aria-expanded','false');if(focus)$('#browseButton').focus()}
-$('#browseButton').onclick=()=>{if(!state.data)return;if(!$('#browseItems').hidden){closeBrowse();return}renderBrowse();$('#browseItems').hidden=false;$('#browseButton').setAttribute('aria-expanded','true')};
+$('#browseButton').onclick=()=>{if(!state.data)return;closeDifficulty();if(!$('#browseItems').hidden){closeBrowse();return}renderBrowse();$('#browseItems').hidden=false;$('#browseButton').setAttribute('aria-expanded','true')};
 $('#browseItems').onclick=e=>{const b=e.target.closest('[data-entry]');if(!b)return;const entry=browseEntries[Number(b.dataset.entry)];if(entry.kind==='branch'){browseBranch=browseBranch===entry.value?null:entry.value;renderBrowse();$('#browseItems').querySelector(`[data-entry="${browseEntries.findIndex(e=>e.kind==='branch'&&e.value===entry.value)}"]`).focus()}else{state.scope=entry;$('#browseLabel').textContent=entry.kind==='all'?'전체 임무':entry.value;filters();rows();rememberViewFilters();closeBrowse(true)}};
 addEventListener('click',e=>{if(!e.composedPath().includes($('.browse-picker')))closeBrowse()});
 addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#browseItems').hidden){closeBrowse(true);e.preventDefault()}if((e.key==='ArrowDown'||e.key==='ArrowUp')&&e.target.closest('.browse-picker')&&!$('#browseItems').hidden){const buttons=[...$('#browseItems').querySelectorAll('button')],i=buttons.indexOf(document.activeElement);buttons[(i+(e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length]?.focus();e.preventDefault()}});
+/* Same attached dropdown as region; difficulty groups stay expanded. The hidden
+   select retains the existing values and change handler, not a native popup. */
+function renderDifficulty(){
+  const option=o=>`<button type="button" role="option" data-difficulty="${esc(o.value)}" aria-selected="${o.value===state.difficulty}"><span>${esc(o.textContent)}</span>${o.value===state.difficulty?'<span aria-hidden="true">✓</span>':''}</button>`;
+  $('#difficultyItems').innerHTML=[...$('#difficultySelect').children].map((el,i)=>el.tagName==='OPTGROUP'?`<div role="group" aria-labelledby="difficultyGroup${i}"><h3 id="difficultyGroup${i}">${esc(el.label)}</h3>${[...el.children].map(option).join('')}</div>`:option(el)).join('');
+}
+function closeDifficulty(focus=false){$('#difficultyItems').hidden=true;$('#difficultyButton').setAttribute('aria-expanded','false');if(focus)$('#difficultyButton').focus()}
+function openDifficulty(){if(!state.data)return;closeBrowse();renderDifficulty();$('#difficultyItems').hidden=false;$('#difficultyButton').setAttribute('aria-expanded','true');const selected=$('#difficultyItems').querySelector('[aria-selected="true"]');selected?.focus({preventScroll:true});selected?.scrollIntoView({block:'nearest'})}
+$('#difficultyButton').onclick=()=>{$('#difficultyItems').hidden?openDifficulty():closeDifficulty()};
+$('#difficultyItems').onclick=e=>{const b=e.target.closest('[data-difficulty]');if(!b)return;$('#difficultySelect').value=b.dataset.difficulty;closeDifficulty(true);$('#difficultySelect').dispatchEvent(new Event('change',{bubbles:true}))};
+addEventListener('click',e=>{if(!e.composedPath().includes($('.difficulty-picker')))closeDifficulty()});
+addEventListener('focusin',e=>{if(!e.target.closest('.difficulty-picker'))closeDifficulty()});
+addEventListener('keydown',e=>{
+  if(!e.target.closest('.difficulty-picker'))return;
+  if($('#difficultyItems').hidden){if(['ArrowDown','ArrowUp'].includes(e.key)){openDifficulty();e.preventDefault()}return}
+  if(e.key==='Escape'){closeDifficulty(true);e.preventDefault();return}
+  if(['ArrowDown','ArrowUp','Home','End'].includes(e.key)){const buttons=[...$('#difficultyItems').querySelectorAll('[data-difficulty]')],i=buttons.indexOf(document.activeElement),next=e.key==='Home'?0:e.key==='End'?buttons.length-1:(i+(e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length;buttons[next]?.focus();e.preventDefault()}
+});
 $('#ownedOnly').onchange=e=>{profile().ownedOnly=e.target.checked;save();filters();rows();rememberViewFilters()};
 const companionGroups=[['초기 동료',['여진해','진원봉','소유설']],['세력 동료',['종무월','강일천']],['강호 동료',['류여의','전봉','맹상','탁발준','정소비','도연일','백로','사고란','야무유','석소로']],['원보 동료',['능연','양연헌','상호건','태길이','화공노승','배이나','월영','진무쌍','이일진','소패음','두월한','도화','우영이','설용성','남지의']]];
 function renderOwned(){$('#ownedProfileName').textContent=profile().name;$('#profileGender').value=profile().gender||'unspecified';$('#companionList').innerHTML=companionGroups.map(([g,ns])=>`<fieldset><legend>${g}</legend><div>${ns.map(n=>`<label><input type="checkbox" value="${esc(n)}" ${profile().owned.includes(n)?'checked':''}>${esc(n)}</label>`).join('')}</div></fieldset>`).join('')}
